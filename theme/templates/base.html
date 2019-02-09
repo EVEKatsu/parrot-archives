@@ -46,7 +46,7 @@
 	{% block opengraph %}
         <meta property="og:site_name" content="{{ SITENAME }}" />
         <meta property="og:type" content="website" />
-        <meta property="og:title" content="{% block og_title %}{% endblock og_title %}" />
+        <meta property="og:title" content="{{ SITENAME }}" />
         <meta property="og:url" content="{{ SITEURL }}" />
         <meta name="og:image" content="{{ SITEURL }}/logo.jpg">
         <meta property="og:description" content="Ex-Parrot氏による翻訳記事のアーカイブサイトです">
@@ -55,7 +55,7 @@
     {% block twitter_card %}
         <meta name="twitter:card" content="summary">
         <meta name="twitter:site" content="@ISD_Parrot">
-        <meta name="twitter:title" content="{% block twitter_title %}{% endblock twitter_title %}">
+        <meta name="twitter:title" content="{{ SITENAME }}">
         <meta name="twitter:url" content="{{ SITEURL }}">
         <meta name="twitter:image:src" content="{{ SITEURL }}/logo.jpg">
         <meta name="twitter:description" content="Ex-Parrot氏による翻訳記事のアーカイブサイトです">
