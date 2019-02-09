@@ -6,7 +6,7 @@ Slug: about
 
 現在、[EVE Japan News](https://eveonline-news.info/)というEVE Onlineの日本語ポータルサイトの管理人が不在で、とても不安定な状態です。
 
-そこのサイトで翻訳記事を投稿してくださっていた[Ex-Parrot氏](https://twitter.com/ISD_Parrot)の記事はとても貴重なものだと感じました。
+そこのサイトで翻訳記事を投稿してくださっている[Ex-Parrot氏](https://twitter.com/ISD_Parrot)の記事はとても貴重なものだと感じました。
 
 ですので、そのポータルサイトが完全に閉鎖する前にサルベージしておかなければと思い、アーカイブする場所を設置しました。
 
