@@ -1,10 +1,9 @@
-Title: 最初のPelicanブログ
+Title: このサイトについて
 Date: 2015-1-1
 Tags: Administrator
 Authors: Administrator
 Slug: about
 
-# このサイトについて
 現在、[EVE Japan News](https://eveonline-news.info/)というEVE Onlineの日本語ポータルサイトの管理人が不在で、とても不安定な状態です。
 
 そのサイトで翻訳記事を投稿してくださっていた[Ex-Parrot氏](https://twitter.com/ISD_Parrot)の記事はとても貴重なものだと感じました。
