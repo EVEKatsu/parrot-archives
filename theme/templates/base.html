@@ -1,0 +1,132 @@
+{% macro ephemeral_nav_link(what, where, selected=False) -%}
+<li class="ephemeral{% if selected %} selected{% endif %}"><a href="{{ SITEURL }}/{{ where }}">{{what}}</a></li>
+{%- endmacro -%}
+
+<!DOCTYPE html>
+<html lang="{{ DEFAULT_LANG }}">
+<head>
+    {% block head %}
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>{% block title %}{{ SITENAME }}{% endblock title %}</title>
+    {# favicon #}
+    <link rel="shortcut icon" href="{{ SITEURL }}/{{ FAVICON }}" type="{{ FAVICON_TYPE }}" />
+    {% if FEED_ALL_ATOM %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Full Atom Feed" />
+    {% endif %}
+    {% if FEED_ALL_RSS %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ALL_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Full RSS Feed" />
+    {% endif %}
+    {% if FEED_ATOM %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_ATOM }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Atom Feed" />
+    {% endif %}
+    {% if FEED_RSS %}
+    <link href="{{ FEED_DOMAIN }}/{{ FEED_RSS }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} RSS Feed" />
+    {% endif %}
+    {% if CATEGORY_FEED_ATOM and category %}
+    <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_ATOM.format(slug=category.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Categories Atom Feed" />
+    {% endif %}
+    {% if CATEGORY_FEED_RSS and category %}
+    <link href="{{ FEED_DOMAIN }}/{{ CATEGORY_FEED_RSS.format(slug=category.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Categories RSS Feed" />
+    {% endif %}
+    {% if TAG_FEED_ATOM and tag %}
+    <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_ATOM.format(slug=tag.slug) }}" type="application/atom+xml" rel="alternate" title="{{ SITENAME }} Tags Atom Feed" />
+    {% endif %}
+    {% if TAG_FEED_RSS and tag %}
+    <link href="{{ FEED_DOMAIN }}/{{ TAG_FEED_RSS.format(slug=tag.slug) }}" type="application/rss+xml" rel="alternate" title="{{ SITENAME }} Tags RSS Feed" />
+    {% endif %}
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/screen.css" type="text/css" />
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/print.css" type="text/css" media="print" />
+    <meta name="generator" content="Pelican" />
+    <meta name="description" content="{{ SITEDESCRIPTION }}" />
+    <meta name="author" content="{{ AUTHOR }}" />
+    {% endblock head %}
+
+	{% block opengraph %}
+        <meta property="og:site_name" content="{{ SITENAME }}" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="{% block og_title %}{% endblock og_title %}" />
+        <meta property="og:url" content="{{ SITEURL }}" />
+        <meta name="og:image" content="{{ SITEURL }}/logo.jpg">
+        <meta property="og:description" content="Ex-Parrot氏による翻訳記事のアーカイブサイトです">
+    {% endblock opengraph %}
+
+    {% block twitter_card %}
+        <meta name="twitter:card" content="summary">
+        <meta name="twitter:site" content="@ISD_Parrot">
+        <meta name="twitter:title" content="{% block twitter_title %}{% endblock twitter_title %}">
+        <meta name="twitter:url" content="{{ SITEURL }}">
+        <meta name="twitter:image:src" content="{{ SITEURL }}/logo.jpg">
+        <meta name="twitter:description" content="Ex-Parrot氏による翻訳記事のアーカイブサイトです">
+    {% endblock twitter_card %}
+    </head>
+<body>
+   
+    {% if DISPLAY_HEADER or DISPLAY_HEADER is not defined %}
+    <header>
+        {% if DISPLAY_MENU or DISPLAY_MENU is not defined %}
+        <nav>
+            <ul>
+            {% block ephemeral_nav %}{% endblock %}
+                {% if DISPLAY_HOME or DISPLAY_HOME is not defined %}
+                <li{% if output_file == "index.html" %} class="selected"{% endif %}><a href="{{ SITEURL }}/">Home</a></li>
+                {% endif %}
+                {% if DISPLAY_PAGES_ON_MENU %}
+                {% for p in pages %}
+                <li{% if p == page %} class="selected"{% endif %}><a href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                {% endfor %}
+                {% endif %}
+                {% for title, link in MENUITEMS %}
+                <li><a href="{{ link }}">{{ title }}</a></li>
+                {% endfor %}
+                {% for name, link, file in MENU_INTERNAL_PAGES %}
+                <li{% if output_file == file %} class="selected"{% endif %}><a href="{{ SITEURL }}/{{ link }}">{{ name }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+        {% endif %}
+        <div class="header_box">
+            <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
+            {% if SITESUBTITLE %}
+            <h2>{{ SITESUBTITLE }}</h2>
+            {% endif %}
+        </div>
+    </header>
+    {% endif %}
+    <div id="wrapper">
+        <div id="content">
+            {%- block content -%}{%- endblock %}
+
+            {% if DISPLAY_FOOTER or DISPLAY_FOOTER is not defined %}
+            <div class="clear"></div>
+            <footer>
+                <p>
+                <a href="https://github.com/jody-frankowski/blue-penguin">Blue Penguin</a> Theme
+                &middot;
+                Powered by <a href="http://getpelican.com">Pelican</a>
+                 {% if FEED_ALL_ATOM %}
+                &middot;
+                <a href="{{ SITEURL }}/{{ FEED_ALL_ATOM }}" rel="alternate">Atom Feed</a>
+                 {% endif %}
+                 {% if FEED_ALL_RSS %}
+                &middot;
+                <a href="{{ SITEURL }}/{{ FEED_ALL_RSS }}" rel="alternate">Rss Feed</a>
+                 {% endif %}
+            </footer>
+            {% endif %}
+        </div>
+        <div class="clear"></div>
+    </div>
+{% include 'analytics.html' %}
+
+    <script>
+        var links = document.links;
+        for (var i = 0; i < links.length; i++) {
+            if (links[i].hostname != window.location.hostname) {
+                links[i].target = '_blank';
+            }
+        }
+    </script>
+</body>
+</html>

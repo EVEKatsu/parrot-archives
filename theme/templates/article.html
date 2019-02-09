@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block twitter_card %}
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@ISD_Parrot">
+<meta name="twitter:title" content="{{ article.title }}">
+<meta name="twitter:url" content="{{ SITEURL }}/{{ article.url }}">
+<meta name="twitter:image:src" content="{{ SITEURL }}/logo.jpg">
+<meta name="twitter:description" content="{{ article.summary|striptags|truncate(140) }}">
+{% endblock twitter_card %}
+{% block opengraph %}
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{ article.title }}">
+<meta property="og:url" content="{{ SITEURL }}/{{ article.url }}">
+<meta property="og:image" content="{{ SITEURL }}/logo.jpg">
+<meta property="og:description" content="{{ article.summary|striptags|truncate(140) }}">
+{% endblock opengraph %}
+
+
+{% block head %}
+    {{ super() }}
+    {% if article.tags %}
+    <meta name="keywords" content="{{ article.tags|join(",") }}" />
+    {% endif %}
+    {% if article.description %}
+    <meta name="description" content="{{ article.description }}" />
+    {% endif %}
+{% endblock %}
+
+{% block title %}{{ SITENAME }} | {{ article.title }}{% endblock %}
+
+{% block content %}
+{% include "article_stub.html" %}
+{% endblock %}

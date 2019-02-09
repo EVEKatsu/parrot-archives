@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block opengraph %}
+<meta property="og:site_name" content="{{ SITENAME }}" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ SITENAME }} | Tags" />
+<meta property="og:url" content="{{ SITEURL }}/tags" />
+<meta name="og:image" content="{{ SITEURL }}/logo.jpg">
+<meta property="og:description" content="記事に付けられたタグ一覧です">
+{% endblock opengraph %}
+
+{% block twitter_card %}
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@ISD_Parrot">
+<meta name="twitter:title" content="{{ SITENAME }} | Tags">
+<meta name="twitter:url" content="{{ SITEURL }}/tags">
+<meta name="twitter:image:src" content="{{ SITEURL }}/logo.jpg">
+<meta name="twitter:description" content="記事に付けられたタグ一覧です">
+{% endblock twitter_card %}
+
+{% block title %}{{ SITENAME }} | Tags{% endblock %}
+{% block content %}
+<ul>
+    {% for tag, articles in tags %}
+        <li><a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a></li>
+    {% endfor %}
+</ul>
+{% endblock %}

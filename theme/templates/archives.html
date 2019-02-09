@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block opengraph %}
+<meta property="og:site_name" content="{{ SITENAME }}" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ SITENAME }} | Archives" />
+<meta property="og:url" content="{{ SITEURL }}/archives" />
+<meta name="og:image" content="{{ SITEURL }}/logo.jpg">
+<meta property="og:description" content="今までに投稿された記事の一覧です">
+{% endblock opengraph %}
+
+{% block twitter_card %}
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@ISD_Parrot">
+<meta name="twitter:title" content="{{ SITENAME }} | Archives">
+<meta name="twitter:url" content="{{ SITEURL }}/archives">
+<meta name="twitter:image:src" content="{{ SITEURL }}/logo.jpg">
+<meta name="twitter:description" content="今までに投稿された記事の一覧です">
+{% endblock twitter_card %}
+
+{% block title %}{{ SITENAME }} | Archives{% endblock %}
+{% block content %}
+
+    <h1>Archives</h1>
+
+    {# based on http://stackoverflow.com/questions/12764291/jinja2-group-by-month-year #}
+
+    {% for year, year_group in dates|groupby('date.year')|reverse %}
+        {% for month, month_group in year_group|groupby('date.month')|reverse %}
+            <h4 class="date">{{ (month_group|first).date|strftime('%Y-%m') }}</h4>
+            <div class="post archives">
+                <ul>
+                {% for article in month_group %}
+                    <li><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></li>
+                {% endfor %}
+                </ul>
+            </div>
+        {% endfor %}
+    {% endfor %}
+{% endblock %}

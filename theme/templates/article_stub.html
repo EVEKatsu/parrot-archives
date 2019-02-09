@@ -1,0 +1,33 @@
+            {% if not articles_page or first_article_of_day %}
+            <h4 class="date">{{ article.date.strftime("%Y年<br />%-m月%-d日") }}</h4>
+            {% endif %}
+
+            <article class="post">
+                {% if article.title %}
+                <h2 class="title">
+                    <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permanent Link to &quot;{{ article.title }}&quot;">{{ article.title }}</a>
+                </h2>
+                {% endif %}
+
+		{% if not articles_page %}
+		{% include "translations.html" %}
+		{% endif %}                
+                
+
+                {{ article.content }}
+                <div class="clear"></div>
+
+                <div class="info">
+                    {% if article.tags %}
+                    &nbsp;&middot;
+                    {% for t in article.tags %}
+                    &nbsp;<a href="{{ SITEURL }}/{{ t.url }}" class="tags{% if tag and tag.name == t.name %} selected{% endif %}">{{ t }}</a>
+                    {% endfor %}
+                    {% endif %}
+                </div>
+		{% if articles_page and DISQUS_SITENAME %}
+		<a href="{{ SITEURL }}/{{ article.url }}#disqus_thread">Click to read and post comments</a>
+		{% else %}
+		{% include "disqus.html" %}
+		{% endif %}
+            </article>

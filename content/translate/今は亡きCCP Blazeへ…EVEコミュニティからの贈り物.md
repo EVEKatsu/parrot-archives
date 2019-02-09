@@ -1,0 +1,24 @@
+Title: 今は亡きCCP Blazeへ…EVEコミュニティからの贈り物
+Date: 2018-01-20
+Slug: 今は亡きCCP Blazeへ…EVEコミュニティからの贈り物
+Tags: Devブログ, プレスリリース, 翻訳記事
+
+<p class="lead"><strong><a href="https://community.eveonline.com/news/dev-blogs/a-tribute-to-ccp-blaze-an-incredible-community-effort/">今は亡きCCP Blazeへ…EVEコミュニティからの贈り物</a></strong><br/>
+<em>2018-01-19 15:39 By CCP Falcon</em></p>
+<p style="margin-bottom: 1em;"><img class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/今は亡きCCP Blazeへ…EVEコミュニティからの贈り物-1.jpg" width="580"/></p>
+<p>ホリデーシーズンの少し前、私たちはCCP Blazeが死去したことを知らせる悲しい開発者ブログを公開しました。彼はCCPのアイスランド本社に勤務し、オーディオ&amp;グラフィックチームの一員として長年活躍してきました。</p>
+<p>私たちはその開発者ブログのなかで、レイキャヴィクに住む彼の婚約者と1歳のご息女を支援するため、1週間の募金活動を行うと発表しました。募金はCCP Blazeが果たした多大な功績を記念し、特別なデザインのSKINが用いられました。</p>
+<p>この募金活動にはかなり大きな反応が寄せられ、CCPが今まで主催してきた活動のなかでも比類ない成功を収めました。まさに脱帽と言うほかありません。</p>
+<p>今回の開発者ブログはかなり短いですが、それというのも、かくも素晴らしいEVEコミュニティへ捧げるべき感謝の言葉が見つからないのです。</p>
+<p style="margin-bottom: 1em;"><img class="alignnone" height="319" src="https://evekatsu.github.io/parrot-archives/images/今は亡きCCP Blazeへ…EVEコミュニティからの贈り物-2.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img class="alignnone" height="327" src="https://evekatsu.github.io/parrot-archives/images/今は亡きCCP Blazeへ…EVEコミュニティからの贈り物-3.jpg" width="580"/></p>
+<p>ここは数字に語ってもらいましょう。</p>
+<p>12月12日から19日までのあいだ、EVEコミュニティは「ブレイズ」スコードロンSKINを購入することで<strong>3,730,320PLEX</strong>を募金しました。これはゲームタイムにして<strong>620年分</strong>に相当します。</p>
+<p>この結果をもとに、CCPはEVEコミュニティに代わって<strong>119,828.50ドル</strong>をCCP Blazeの家族へ寄付します。</p>
+<p>CCPが実施した他の活動と比べてみると、過去にちょうど7日間かけて行われたPLEX for GOODに次いで、今回の募金活動は過去2番目の金額になりました。</p>
+<p>正直なところ、どうお礼を言えばいいのか分かりません。私たちが抱いている感謝の思いを正確に言葉で表すことは不可能なようです。</p>
+<p>EVEコミュニティは自分たちが何者なのかを再び証明してみせました。個々のプレイヤーはゲーム内では様々な立場に分かれているにもかかわらず、共通の善良な目的の前では揺るぎなき集団になることができるのです。</p>
+<p>CCP一同より皆様へ、心から感謝を申し上げます。</p>
+<p>EVE Online開発・運営チームを代表して<br/>
+EVEユニバースコミュニティマネージャー、<a href="https://twitter.com/CCP_Falcon">CCP Falcon</a></p>
+
