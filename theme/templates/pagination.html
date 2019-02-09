@@ -5,8 +5,11 @@
 	{% if PAGINATION_PATTERNS[0][0] != 0 %}
                 {%- if articles_page.has_previous() %}
                 {%   if articles_page.previous_page_number() == 1 %}
-
+                    {% if page_name == 'index' %}
                     <a href="{{ SITEURL }}/" class="prev_page">&larr;&nbsp;Previous</a>
+                    {% else %}
+                    <a href="{{ SITEURL }}/{{ page_name }}.html" class="prev_page">&larr;&nbsp;Previous</a>
+                    {% endif %}
                 {%-   else %}
 
                     <a href="{{ SITEURL }}/{{ page_name }}{{ articles_page.previous_page_number() }}.html" class="prev_page">&larr;&nbsp;Previous</a>
