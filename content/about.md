@@ -12,3 +12,5 @@ Slug: about
 ですので、サイトが完全に閉鎖する前にサルベージしておかなければと思い、このサイトを設置しました。
 
 このサイトにある記事の著作権は全てCCPおよび[Ex-Parrot氏](https://twitter.com/ISD_Parrot)にあります。
+
+<b>※ここは一時的な避難場所として用意したものであり、[Ex-Parrot氏](https://twitter.com/ISD_Parrot)が他の場所に移転を完了した後は閉鎖する予定です</b>
