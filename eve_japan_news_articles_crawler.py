@@ -68,7 +68,6 @@ def main():
                     image_count += 1
                 keywords['text'] += str(p) + '\n'
 
-
         with open(os.path.join('content', 'translate', '%s.md' % keywords['title']), 'w', encoding='utf-8') as file:
             file.write(MARKDOWN.format(**keywords))
 
@@ -91,6 +90,6 @@ def main():
             page_count = len(articles)
 
     run()
- 
+
 if __name__ == '__main__':
     main()
