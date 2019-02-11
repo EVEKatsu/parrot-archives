@@ -1,5 +1,5 @@
 Title: このアーカイブサイトについて
-Date: 1000-1-1
+Date: 1111-1-1
 Tags: Administrator
 Authors: Administrator
 Slug: about
@@ -14,7 +14,7 @@ Slug: about
 
 <br />
 # 著作権等の諸権利は全てParrot氏に帰属
-翻訳記事の原文の諸権利はCCPに帰属していますが、翻訳記事そのものの諸権利は[Parrot氏](https://twitter.com/ISD_Parrot)に帰属しています。
+原文の諸権利はCCPに帰属していますが、翻訳記事そのものの諸権利は[Parrot氏](https://twitter.com/ISD_Parrot)に帰属しています。
 
 このアーカイブサイトを公開することは[Parrot氏](https://twitter.com/ISD_Parrot)に許可を得ております。
 
@@ -37,4 +37,4 @@ Slug: about
 
 <br />
 # 再転載は禁止
-上記の理由により誤った状態での記事が拡散されかねないこと、翻訳記事の原文の諸権利がCCPに帰属していることを踏まえ、再転載は禁止です。
+上記の理由により、誤った状態での記事が拡散されかねないこと、原文の諸権利がCCPに帰属していることを踏まえ、再転載は禁止です。
