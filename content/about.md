@@ -1,5 +1,5 @@
 Title: このアーカイブサイトについて
-Date: 9999-9-9
+Date: 1000-1-1
 Tags: Administrator
 Authors: Administrator
 Slug: about

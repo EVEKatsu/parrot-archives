@@ -1,43 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Parrot Archives</title><link href="https://evekatsu.github.io/parrot-archives/" rel="alternate"></link><link href="https://evekatsu.github.io/parrot-archives/feeds/all.atom.xml" rel="self"></link><id>https://evekatsu.github.io/parrot-archives/</id><updated>9999-09-09T00:00:00+09:00</updated><entry><title>このアーカイブサイトについて</title><link href="https://evekatsu.github.io/parrot-archives/about.html" rel="alternate"></link><published>9999-09-09T00:00:00+09:00</published><updated>9999-09-09T00:00:00+09:00</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,9999-09-09:/parrot-archives/about.html</id><summary type="html">&lt;p&gt;現在、&lt;a href="https://eveonline-news.info/"&gt;EVE Japan News&lt;/a&gt;というEVE Onlineの日本語ポータルサイトの管理人が不在で、とても不安定な状態です。&lt;/p&gt;
-&lt;p&gt;しかし、そこで翻訳記事を投稿してくださっている&lt;a href="https://twitter.com/ISD_Parrot"&gt;Parrot氏&lt;/a&gt;の記事はとても貴重なものだと感じています。&lt;/p&gt;
-&lt;p&gt;ですので、そのポータルサイトが完全に閉鎖する前にサルベージしておかなければと思い、アーカイブする場所を設置しました。&lt;/p&gt;
-&lt;p&gt;このアーカイブサイトを利用するにあたって、いくつかの注意点があります。&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h1&gt;著作権等の諸権利は全てParrot氏に帰属&lt;/h1&gt;
-&lt;p&gt;翻訳記事の原文の諸権利はCCPに帰属していますが、翻訳記事そのものの諸権利は&lt;a href="https://twitter.com/ISD_Parrot"&gt;Parrot氏&lt;/a&gt;に帰属しています。&lt;/p&gt;
-&lt;p&gt;このアーカイブサイトを公開することは&lt;a href="https://twitter.com/ISD_Parrot"&gt;Parrot氏&lt;/a&gt;に許可を得ております。&lt;/p&gt;
-&lt;p&gt;そしてもし、&lt;a href="https://twitter.com/ISD_Parrot"&gt;Parrot氏&lt;/a&gt;がEVE Japan Newsではない別の場所に移転した等、環境や状況の変化が生じ「そちらのアーカイブサイトは閉鎖して欲しい」というような要請を受けた場合、このアーカイブサイトは閉鎖します。&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h1&gt;公開された後も記事の内容が変更される可能性&lt;/h1&gt;
-&lt;p&gt;翻訳記事が公開された後も、記事の内容が修正されることがあります。&lt;/p&gt;
-&lt;p&gt;その場合このアーカイブサイトと元の翻訳記事の内容に齟齬が生じます。&lt;/p&gt;
-&lt;p&gt;それを防ぐために定期的に自動で再アーカイブするようにしています。&lt;/p&gt;
-&lt;p&gt;今のところ自動的に再アーカイブするのは月に1回か週に1回を予定しています。&lt;/p&gt;
-&lt;p&gt;しかし、何らかのトラブルで整合性が取れていない状態が続く可能性はあります。&lt;/p&gt;
-&lt;p&gt;もし長期間に渡って翻訳記事と内容が異なっている箇所を発見した場合はParrot氏本人ではなく、こちらの&lt;a href="https://twitter.com/evekatsu"&gt;Twtter&lt;/a&gt;や&lt;a href="https://discord.gg/XK9A348"&gt;Discord&lt;/a&gt;の方にご一報ください（TwitterのDMはFF外に開放しています）&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h1&gt;再転載は禁止&lt;/h1&gt;
-&lt;p&gt;上記の理由により誤った状態での記事が拡散されかねないこと …&lt;/p&gt;</summary><content type="html">&lt;p&gt;現在、&lt;a href="https://eveonline-news.info/"&gt;EVE Japan News&lt;/a&gt;というEVE Onlineの日本語ポータルサイトの管理人が不在で、とても不安定な状態です。&lt;/p&gt;
-&lt;p&gt;しかし、そこで翻訳記事を投稿してくださっている&lt;a href="https://twitter.com/ISD_Parrot"&gt;Parrot氏&lt;/a&gt;の記事はとても貴重なものだと感じています。&lt;/p&gt;
-&lt;p&gt;ですので、そのポータルサイトが完全に閉鎖する前にサルベージしておかなければと思い、アーカイブする場所を設置しました。&lt;/p&gt;
-&lt;p&gt;このアーカイブサイトを利用するにあたって、いくつかの注意点があります。&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h1&gt;著作権等の諸権利は全てParrot氏に帰属&lt;/h1&gt;
-&lt;p&gt;翻訳記事の原文の諸権利はCCPに帰属していますが、翻訳記事そのものの諸権利は&lt;a href="https://twitter.com/ISD_Parrot"&gt;Parrot氏&lt;/a&gt;に帰属しています。&lt;/p&gt;
-&lt;p&gt;このアーカイブサイトを公開することは&lt;a href="https://twitter.com/ISD_Parrot"&gt;Parrot氏&lt;/a&gt;に許可を得ております。&lt;/p&gt;
-&lt;p&gt;そしてもし、&lt;a href="https://twitter.com/ISD_Parrot"&gt;Parrot氏&lt;/a&gt;がEVE Japan Newsではない別の場所に移転した等、環境や状況の変化が生じ「そちらのアーカイブサイトは閉鎖して欲しい」というような要請を受けた場合、このアーカイブサイトは閉鎖します。&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h1&gt;公開された後も記事の内容が変更される可能性&lt;/h1&gt;
-&lt;p&gt;翻訳記事が公開された後も、記事の内容が修正されることがあります。&lt;/p&gt;
-&lt;p&gt;その場合このアーカイブサイトと元の翻訳記事の内容に齟齬が生じます。&lt;/p&gt;
-&lt;p&gt;それを防ぐために定期的に自動で再アーカイブするようにしています。&lt;/p&gt;
-&lt;p&gt;今のところ自動的に再アーカイブするのは月に1回か週に1回を予定しています。&lt;/p&gt;
-&lt;p&gt;しかし、何らかのトラブルで整合性が取れていない状態が続く可能性はあります。&lt;/p&gt;
-&lt;p&gt;もし長期間に渡って翻訳記事と内容が異なっている箇所を発見した場合はParrot氏本人ではなく、こちらの&lt;a href="https://twitter.com/evekatsu"&gt;Twtter&lt;/a&gt;や&lt;a href="https://discord.gg/XK9A348"&gt;Discord&lt;/a&gt;の方にご一報ください（TwitterのDMはFF外に開放しています）&lt;/p&gt;
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;h1&gt;再転載は禁止&lt;/h1&gt;
-&lt;p&gt;上記の理由により誤った状態での記事が拡散されかねないこと、翻訳記事の原文の諸権利がCCPに帰属していることを踏まえ、再転載は禁止です。&lt;/p&gt;</content><category term="Administrator"></category></entry><entry><title>ンドカッシ問題、内部告発者が損傷していない目録データを公開</title><link href="https://evekatsu.github.io/parrot-archives/%E3%83%B3%E3%83%89%E3%82%AB%E3%83%83%E3%82%B7%E5%95%8F%E9%A1%8C%E3%80%81%E5%86%85%E9%83%A8%E5%91%8A%E7%99%BA%E8%80%85%E3%81%8C%E6%90%8D%E5%82%B7%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84%E7%9B%AE%E9%8C%B2%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E5%85%AC%E9%96%8B.html" rel="alternate"></link><published>2019-02-09T00:00:00+09:00</published><updated>2019-02-09T00:00:00+09:00</updated><author><name>Parrot</name></author><id>tag:evekatsu.github.io,2019-02-09:/parrot-archives/ンドカッシ問題、内部告発者が損傷していない目録データを公開.html</id><summary type="html">&lt;p class="lead"&gt;&lt;strong&gt;&lt;a href="https://community.eveonline.com/news/news-channels/world-news/whistleblower-releases-undamaged-manifest-in-ndokassi-dispute/"&gt;ンドカッシ問題、内部告発者が損傷していない目録データを公開&lt;/a&gt;&lt;/strong&gt;&lt;br/&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Parrot Archives</title><link href="https://evekatsu.github.io/parrot-archives/" rel="alternate"></link><link href="https://evekatsu.github.io/parrot-archives/feeds/all.atom.xml" rel="self"></link><id>https://evekatsu.github.io/parrot-archives/</id><updated>2019-02-09T00:00:00+09:00</updated><entry><title>ンドカッシ問題、内部告発者が損傷していない目録データを公開</title><link href="https://evekatsu.github.io/parrot-archives/%E3%83%B3%E3%83%89%E3%82%AB%E3%83%83%E3%82%B7%E5%95%8F%E9%A1%8C%E3%80%81%E5%86%85%E9%83%A8%E5%91%8A%E7%99%BA%E8%80%85%E3%81%8C%E6%90%8D%E5%82%B7%E3%81%97%E3%81%A6%E3%81%84%E3%81%AA%E3%81%84%E7%9B%AE%E9%8C%B2%E3%83%87%E3%83%BC%E3%82%BF%E3%82%92%E5%85%AC%E9%96%8B.html" rel="alternate"></link><published>2019-02-09T00:00:00+09:00</published><updated>2019-02-09T00:00:00+09:00</updated><author><name>Parrot</name></author><id>tag:evekatsu.github.io,2019-02-09:/parrot-archives/ンドカッシ問題、内部告発者が損傷していない目録データを公開.html</id><summary type="html">&lt;p class="lead"&gt;&lt;strong&gt;&lt;a href="https://community.eveonline.com/news/news-channels/world-news/whistleblower-releases-undamaged-manifest-in-ndokassi-dispute/"&gt;ンドカッシ問題、内部告発者が損傷していない目録データを公開&lt;/a&gt;&lt;/strong&gt;&lt;br/&gt;
 &lt;em&gt;2019-01-29 19:40 スコープ、アルトン・ハヴェリ&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;ハガー(パター3)発－ンドカッシ保管庫をめぐる対立に倫理的問題という新たな側面が加わった。ンドカッシを発掘した考古学者ゲシラ・フレーマーは、発見のきっかけとなった目録データは損傷していたと主張したが、この主張を不正確かつ意図的な虚偽だとする内部告発の声があがったのである。&lt;/p&gt;
@@ -5885,4 +5847,42 @@ Team Five-0&lt;/p&gt;</content><category term="Devブログ"></category><categor
 
 &lt;p&gt; &lt;/p&gt;
 
-&lt;p&gt;*本記事の訳出精度は決して高いものとはいえません。誤訳、誤読が含まれていた場合はご寛恕ください*&lt;/p&gt;</content><category term="The Mittani"></category><category term="翻訳記事"></category></entry></feed>
+&lt;p&gt;*本記事の訳出精度は決して高いものとはいえません。誤訳、誤読が含まれていた場合はご寛恕ください*&lt;/p&gt;</content><category term="The Mittani"></category><category term="翻訳記事"></category></entry><entry><title>このアーカイブサイトについて</title><link href="https://evekatsu.github.io/parrot-archives/about.html" rel="alternate"></link><published>1000-01-01T00:00:00+09:19</published><updated>1000-01-01T00:00:00+09:19</updated><author><name>Administrator</name></author><id>tag:evekatsu.github.io,1000-01-01:/parrot-archives/about.html</id><summary type="html">&lt;p&gt;現在、&lt;a href="https://eveonline-news.info/"&gt;EVE Japan News&lt;/a&gt;というEVE Onlineの日本語ポータルサイトの管理人が不在で、とても不安定な状態です。&lt;/p&gt;
+&lt;p&gt;しかし、そこで翻訳記事を投稿してくださっている&lt;a href="https://twitter.com/ISD_Parrot"&gt;Parrot氏&lt;/a&gt;の記事はとても貴重なものだと感じています。&lt;/p&gt;
+&lt;p&gt;ですので、そのポータルサイトが完全に閉鎖する前にサルベージしておかなければと思い、アーカイブする場所を設置しました。&lt;/p&gt;
+&lt;p&gt;このアーカイブサイトを利用するにあたって、いくつかの注意点があります。&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;著作権等の諸権利は全てParrot氏に帰属&lt;/h1&gt;
+&lt;p&gt;翻訳記事の原文の諸権利はCCPに帰属していますが、翻訳記事そのものの諸権利は&lt;a href="https://twitter.com/ISD_Parrot"&gt;Parrot氏&lt;/a&gt;に帰属しています。&lt;/p&gt;
+&lt;p&gt;このアーカイブサイトを公開することは&lt;a href="https://twitter.com/ISD_Parrot"&gt;Parrot氏&lt;/a&gt;に許可を得ております。&lt;/p&gt;
+&lt;p&gt;そしてもし、&lt;a href="https://twitter.com/ISD_Parrot"&gt;Parrot氏&lt;/a&gt;がEVE Japan Newsではない別の場所に移転した等、環境や状況の変化が生じ「そちらのアーカイブサイトは閉鎖して欲しい」というような要請を受けた場合、このアーカイブサイトは閉鎖します。&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;公開された後も記事の内容が変更される可能性&lt;/h1&gt;
+&lt;p&gt;翻訳記事が公開された後も、記事の内容が修正されることがあります。&lt;/p&gt;
+&lt;p&gt;その場合このアーカイブサイトと元の翻訳記事の内容に齟齬が生じます。&lt;/p&gt;
+&lt;p&gt;それを防ぐために定期的に自動で再アーカイブするようにしています。&lt;/p&gt;
+&lt;p&gt;今のところ自動的に再アーカイブするのは月に1回か週に1回を予定しています。&lt;/p&gt;
+&lt;p&gt;しかし、何らかのトラブルで整合性が取れていない状態が続く可能性はあります。&lt;/p&gt;
+&lt;p&gt;もし長期間に渡って翻訳記事と内容が異なっている箇所を発見した場合はParrot氏本人ではなく、こちらの&lt;a href="https://twitter.com/evekatsu"&gt;Twtter&lt;/a&gt;や&lt;a href="https://discord.gg/XK9A348"&gt;Discord&lt;/a&gt;の方にご一報ください（TwitterのDMはFF外に開放しています）&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;再転載は禁止&lt;/h1&gt;
+&lt;p&gt;上記の理由により誤った状態での記事が拡散されかねないこと …&lt;/p&gt;</summary><content type="html">&lt;p&gt;現在、&lt;a href="https://eveonline-news.info/"&gt;EVE Japan News&lt;/a&gt;というEVE Onlineの日本語ポータルサイトの管理人が不在で、とても不安定な状態です。&lt;/p&gt;
+&lt;p&gt;しかし、そこで翻訳記事を投稿してくださっている&lt;a href="https://twitter.com/ISD_Parrot"&gt;Parrot氏&lt;/a&gt;の記事はとても貴重なものだと感じています。&lt;/p&gt;
+&lt;p&gt;ですので、そのポータルサイトが完全に閉鎖する前にサルベージしておかなければと思い、アーカイブする場所を設置しました。&lt;/p&gt;
+&lt;p&gt;このアーカイブサイトを利用するにあたって、いくつかの注意点があります。&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;著作権等の諸権利は全てParrot氏に帰属&lt;/h1&gt;
+&lt;p&gt;翻訳記事の原文の諸権利はCCPに帰属していますが、翻訳記事そのものの諸権利は&lt;a href="https://twitter.com/ISD_Parrot"&gt;Parrot氏&lt;/a&gt;に帰属しています。&lt;/p&gt;
+&lt;p&gt;このアーカイブサイトを公開することは&lt;a href="https://twitter.com/ISD_Parrot"&gt;Parrot氏&lt;/a&gt;に許可を得ております。&lt;/p&gt;
+&lt;p&gt;そしてもし、&lt;a href="https://twitter.com/ISD_Parrot"&gt;Parrot氏&lt;/a&gt;がEVE Japan Newsではない別の場所に移転した等、環境や状況の変化が生じ「そちらのアーカイブサイトは閉鎖して欲しい」というような要請を受けた場合、このアーカイブサイトは閉鎖します。&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;公開された後も記事の内容が変更される可能性&lt;/h1&gt;
+&lt;p&gt;翻訳記事が公開された後も、記事の内容が修正されることがあります。&lt;/p&gt;
+&lt;p&gt;その場合このアーカイブサイトと元の翻訳記事の内容に齟齬が生じます。&lt;/p&gt;
+&lt;p&gt;それを防ぐために定期的に自動で再アーカイブするようにしています。&lt;/p&gt;
+&lt;p&gt;今のところ自動的に再アーカイブするのは月に1回か週に1回を予定しています。&lt;/p&gt;
+&lt;p&gt;しかし、何らかのトラブルで整合性が取れていない状態が続く可能性はあります。&lt;/p&gt;
+&lt;p&gt;もし長期間に渡って翻訳記事と内容が異なっている箇所を発見した場合はParrot氏本人ではなく、こちらの&lt;a href="https://twitter.com/evekatsu"&gt;Twtter&lt;/a&gt;や&lt;a href="https://discord.gg/XK9A348"&gt;Discord&lt;/a&gt;の方にご一報ください（TwitterのDMはFF外に開放しています）&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt;再転載は禁止&lt;/h1&gt;
+&lt;p&gt;上記の理由により誤った状態での記事が拡散されかねないこと、翻訳記事の原文の諸権利がCCPに帰属していることを踏まえ、再転載は禁止です。&lt;/p&gt;</content><category term="Administrator"></category></entry></feed>
