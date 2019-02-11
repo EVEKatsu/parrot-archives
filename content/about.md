@@ -28,11 +28,11 @@ Slug: about
 
 それを防ぐために定期的に自動で再アーカイブするようにしています。
 
-今のところ自動的に再アーカイブするのは月に1回か週に1回を予定しています。
+今のところ再アーカイブするのは月に1回か週に1回を予定しています。
 
 しかし、何らかのトラブルで整合性が取れていない状態が続く可能性はあります。
 
-もし長期間に渡って翻訳記事と内容が異なっている箇所を発見した場合はParrot氏本人ではなく、こちらの[Twtter](https://twitter.com/evekatsu)や[Discord](https://discord.gg/XK9A348)の方にご一報ください（TwitterのDMはFF外に開放しています）
+もし長期間に渡って元の翻訳記事と内容が異なっている箇所を発見した場合はParrot氏本人ではなく、こちらの[Twtter](https://twitter.com/evekatsu)や[Discord](https://discord.gg/XK9A348)の方にご一報ください（TwitterのDMはFF外に開放しています）
 
 
 <br />
