@@ -1,4 +1,5 @@
 import os
+import os.path
 import time
 import urllib.error
 import urllib.request
@@ -14,7 +15,7 @@ SITEURL = 'https://evekatsu.github.io/parrot-archives'
 
 MARKDOWN = """Title: {title}
 Date: {date}
-Slug: {title}
+Slug: {article_id}
 Tags: {tags}
 
 {text}
@@ -38,7 +39,8 @@ def main():
     driver = webdriver.Chrome()
 
     def generate_markdown(article_id):
-        keywords = {}
+        keywords = {'article_id': article_id}
+
         driver.get(base_url + str(article_id))
         WebDriverWait(driver, 60).until(lambda x: x.find_element_by_id('main'))
         soup = BeautifulSoup(driver.page_source, 'html.parser')
@@ -57,39 +59,42 @@ def main():
         for p in article.section.findAll('p'):
             if p.get('class') == None or p.get('class')[0] == 'lead':
                 for img in p.findAll('img'):
-                    img_name = '%s-%d.jpg' % (keywords['title'], image_count)
-                    download_image(img.get('src'), os.path.join('content', 'images', img_name))
+                    root, ext = os.path.splitext(img.get('src'))
+                    img_path = '%d-%d%s' % (article_id, image_count, ext.split('?')[0].lower())
+                    download_image(img.get('src'), os.path.join('content', 'images', img_path))
                     new_tag = soup.new_tag('img')
                     for key, value in img.attrs.items():
                         new_tag[key] = value
 
-                    new_tag['src'] = SITEURL + '/images/' + img_name
+                    new_tag['src'] = SITEURL + '/images/' + img_path
+                    new_tag['alt'] = '%s-%d' % (keywords['title'], image_count)
                     img.replace_with(new_tag)
                     image_count += 1
                 keywords['text'] += str(p) + '\n'
 
-        with open(os.path.join('content', 'translate', '%s.md' % keywords['title']), 'w', encoding='utf-8') as file:
+        with open(os.path.join('content', 'translate', '%d.md' % article_id), 'w', encoding='utf-8') as file:
             file.write(MARKDOWN.format(**keywords))
 
-    def run():
-        page_index = 1
-        page_count = EVE_JAPAN_NEWS_PAGINATION
+    page_index = 1
+    page_count = EVE_JAPAN_NEWS_PAGINATION
 
-        while page_count == EVE_JAPAN_NEWS_PAGINATION:
-            driver.get(base_url + ('category/translate/page/%d' % page_index))
-            WebDriverWait(driver, 60).until(lambda x: x.find_element_by_id('main'))
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
+    while page_count == EVE_JAPAN_NEWS_PAGINATION:
+        driver.get(base_url + ('category/translate/page/%d' % page_index))
+        WebDriverWait(driver, 60).until(lambda x: x.find_element_by_id('main'))
+        soup = BeautifulSoup(driver.page_source, 'html.parser')
 
-            articles = soup.find('div', id='main').findAll('article')
-            for article in articles:
+        articles = soup.find('div', id='main').findAll('article')
+        for article in articles:
+            try:
                 article_id = int(article.get('id').split('-')[1])
-                generate_markdown(article_id)
-                time.sleep(2)
+            except:
+                break
 
-            page_index += 1
-            page_count = len(articles)
+            generate_markdown(article_id)
+            time.sleep(2)
 
-    run()
+        page_index += 1
+        page_count = len(articles)
 
 if __name__ == '__main__':
     main()

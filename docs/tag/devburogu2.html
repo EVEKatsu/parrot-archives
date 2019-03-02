@@ -48,7 +48,128 @@
 
             <article class="post">
                 <h2 class="title">
-                    <a href="https://evekatsu.github.io/parrot-archives/ファクションシタデルの詳細を公開.html" rel="bookmark" title="Permanent Link to &quot;ファクションシタデルの詳細を公開&quot;">ファクションシタデルの詳細を公開</a>
+                    <a href="https://evekatsu.github.io/parrot-archives/1490.html" rel="bookmark" title="Permanent Link to &quot;「Into The Abyss」における惑星開発の改善について&quot;">「Into The Abyss」における惑星開発の改善について</a>
+                </h2>
+
+                
+                
+
+                <p class="lead"><strong><a href="https://www.eveonline.com/article/p7hle2/changes-coming-to-planetary-interaction-with-into-the-abyss">「Into The Abyss」における惑星開発の改善について</a></strong><br/>
+<em>2018-04-20 – By The EVE Dev Team</em></p>
+
+<p style="margin-bottom: 1em;"><img alt="「Into The Abyss」における惑星開発の改善について-1" class="alignnone" height="312" src="https://evekatsu.github.io/parrot-archives/images/1490-1.png" width="580"/></p>
+
+<p>この開発者ブログについて議論したい方は、公式フォーラムの<a href="https://forums.eveonline.com/t/dev-blog-changes-coming-to-planetary-interaction/70907">総合感想スレッド</a>をお気軽にご利用ください。</p>
+
+<p>ご機嫌よう、カプセラ諸君。</p>
+
+<p>惑星開発(PI)は2010年の「Tyrannis」エクスパンションで実装されました。実装してから今まで、システムが大きく変わることはありませんでしたが、ついに変化の時を迎えようとしています。「Into The Abyss」エクスパンションではPIのUIが幾つかの部分で改善されます。</p>
+
+<p>今回の改善は、コロニーを設置して維持する苦労をより小さくすることが目的で、特にコロニー設置時のクリック回数に注目しています。1つの惑星に司令基地、スペースポート、エクストラクター制御装置10個、インダストリー施設12個を設置し、リンクとルートを設定すると、だいたい300回はクリックしなければなりません。300回ですよ！ 私たちがPIをどう変えていくのか、そしてクリック回数はどうなるのか、ゆっくり見ていきましょう。</p>
+
+<p>まず最初に、ちょっとした間違い探しをやってみませんか？</p>
+
+<p style="margin-bottom: 1em;"><img alt="「Into The Abyss」における惑星開発の改善について-2" class="alignnone" height="374" src="https://evekatsu.github.io/parrot-archives/images/1490-2.png" width="580"/></p>
+
+<p style="margin-bottom: 1em;"><img alt="「Into The Abyss」における惑星開発の改善について-3" class="alignnone" height="363" src="https://evekatsu.github.io/parrot-archives/images/1490-3.png" width="580"/></p>
+
+<p>答え:</p>
+
+<p>1. 「ビルド」と「スキャン」はメニューの一番下から一番上へと移動しました。<br/>
+2. 資源スキャンバーが見やすくなるよう、ブロック分けされました。<br/>
+3. 「枯渇までの時間」が「残り時間(Time Remaining)」に変更されました。<br/>
+4. エクストラクター制御装置を選択すると、資源採取範囲が常に表示されるようになりました。<br/>
+5. PI画面で選択中のタブがハイライト表示されるようになりました。<br/>
+6. 構造物を選択すると、その構造物に関係するルートが表示されるようになりました。これまではポインタを重ねた時だけ表示されていました。<br/>
+7. PIを行っているあいだも艦船HUDが表示されるようになりました。<br/>
+8. 「惑星モード」の名称を「惑星上製造(Planetary Production)」に変更しました。<br/>
+9. 惑星の情報ウィンドウに「惑星上製造画面を見る(View Planetary Production)」ボタンを付け加え、どんな資源が採取できるか確認できるタブも追加しました。<br/>
+10. 選択アイテムウィンドウの「惑星モードで表示」ボタンを「Xm以内へワープ」ボタンから遠ざけました。<br/>
+11. 何かが適切に設置されていないことを示す赤い円を追加しました。上の画像ではインダストリー施設に問題があります。</p>
+
+<p>これらはシンプルな変化の一部です。次はもっと大きな改善点を見ていきます。</p>
+
+<p></p>
+
+<p>現在のPIシステムでは、ピンやリンクを設定したあと、ビルドメニューからピンを再選択する必要があります。そのピンを設定したら、またビルドメニューから選択して設定、選択して設定、選択して設定…。今後はこの繰り返しを省くため、ピンやリンクを一旦選択すると、CPUとパワーが許すかぎり設定を続けられるようになります。</p>
+
+<p style="margin-bottom: 1em;"></p>
+
+<p></p>
+
+<p>おや、ピンを滅茶苦茶に配置してしまったのですね。いちいちピンをクリックして削除を選択し、本当に削除するのかという問いに答えるのは面倒だと思いませんか？ そんなことせずにピンを削除できる手段があれば便利ですよね？ 新たに導入される削除ツールをご紹介しましょう。</p>
+
+<p style="margin-bottom: 1em;"></p>
+
+<p></p>
+
+<p>コロニーの整備が終わり、あなたはPI画面から離れます。惑星上では順調に生産活動が行われているはずです。数日後、あなたが戻ってきてコロニーの様子を確認すると、インダストリー施設からルートが引かれていなかったせいで何も生産されていませんでした。こんな悲しい出来事を防ぐため、準備が完了していないピンに目印が付き、何が不足しているのか明確に伝えるようになりました。準備が終わると目印の色が変わり、ちょっとしたアニメーションが表示され、すべて設定できたと分かります。</p>
+
+<p style="margin-bottom: 1em;"></p>
+
+<p></p>
+
+<p>私たちはピンの利便性をさらに改善し、同じタイプのピンを選択すると、以前選択したタブと同じタブが開くようにしました。インダストリー施設のピンはあなたが最後に利用した回路図を記憶するので、新しいピンを選択すると、前回の回路図が既に選択された状態でタブが開きます。</p>
+
+<p style="margin-bottom: 1em;"></p>
+
+<p></p>
+
+<p></p>
+
+<p>どの資源がどの惑星で産出され、それらで何ができるか確認する。このチェック作業を改良する必要があります。</p>
+
+<p>PI画面のビルドメニューで資源などにポインタを重ねると、ツールチップが表示されるようになります。ツールチップはピンが何に使われるのか、そのピンはどのくらいのコストを必要とするのか、どれだけCPUとパワーを使用するのかを表示します。</p>
+
+<p>ツールチップはある資源が何から生産されるか、何を生産できるか、どれくらい時間がかかるかを表示し、容量も教えてくれます。情報ウィンドウにも同じ方法を導入しますので、必要な情報を探して回路図から回路図へ飛びまわることはなくなるでしょう。これからは資源の情報ウィンドウの惑星開発タブを開けば、求める情報がすべて手に入ります。</p>
+
+<p style="margin-bottom: 1em;"></p>
+
+<p></p>
+
+<p></p>
+
+<p>他にも、私たちは次のような変更を加えました。</p>
+
+<p>・よりシンプルなビルドメニュー。現在のアコーディオン型メニューを削除し、作成可能なすべてのアイテムを表示します。各アイテムではツールチップが表示され、それらの機能、コスト、必要なCPUとパワーの量を表示します。<br/>
+・情報パネルがビルドメニューとスキャンメニューの選択を記憶。PI画面を閉じても、ビルドメニューとスキャンメニューのどちらが選択されていたか情報パネルが記憶するようになります。<br/>
+・カメラの位置に影響されないピン配置。これは少し説明しづらいのですが、ピンがポインタの下に正確に配置されるようになります。<br/>
+・画面動作の改善。PI画面がほかの操作画面と同じように動作するようになり、他ウィンドウの背後に隠れてしまわなくなります。<br/>
+・ルート作成時にホログラムが非表示に。ルートを設定する際にホログラムが邪魔になることがあったので、ルート作成時は表示されないようになります。<br/>
+・アニメーションの表示、消失をアニメーション化。</p>
+
+<p></p>
+
+<p style="margin-bottom: 1em;"><img alt="「Into The Abyss」における惑星開発の改善について-4" class="alignnone" height="816" src="https://evekatsu.github.io/parrot-archives/images/1490-4.png" width="518"/></p>
+
+<p>惑星コロニーも改修対象です。従来のウィンドウは惑星が存在する星系、惑星の種類、施設の数くらいしか教えてくれませんでした。今後はもっと多くの情報が表示されます。</p>
+
+<p>新しい惑星コロニーウィンドウは、あなたの資源の採取状況、生産状況、貯蔵状況を表示します。さらに、資源採取が停止したら、その事実も教えてくれます。惑星コロニーウィンドウからコロニーを操作することはできませんが、少なくとも状況だけは把握できるようになります。また、コロニーが正しく整備されていない場合、何かがおかしいということもお知らせします。</p>
+
+<p>今までの惑星コロニーウィンドウは、あなたがコロニーを所有していないなら何も表示されませんでした。新しい惑星コロニーウィンドウには6個のスロットが表示されます。これは惑星間コンソリデーションスキルをレベル5までトレーニングした際に維持できるコロニーの最大数です。レベル5までトレーニングしていない状態では、各スロットを開放するために必要なスキルレベルが表示されます。スキルトレーニングが完了しているにもかかわらずコロニーを所有していない場合は、コロニーを整備するために必要なものが表示されます。</p>
+
+<p>ワープボタンを押すと、惑星ではなく税関へワープするようになります。税関が存在する星系にいない場合は、目的地設定ボタンになります。</p>
+
+<p></p>
+
+<p>説明してきた変更を反映すれば、冒頭の条件でのクリック回数は185回前後になります。クリック回数を減らす余地は他にもありそうですし、皆さんからのフィードバックを楽しみにしています。</p>
+
+<p>この変更はまもなくSingularityサーバーに実装されますので、ご意見、ご感想をお聞かせください。何かバグや問題を発見した場合は、F12キーでメニューを開いてクライアント経由で報告をお願いします。</p>
+
+<p>ここまでお読みいただきありがとうございました！</p>
+                <div class="clear"></div>
+
+                <div class="info">
+                    &nbsp;&middot;
+                    &nbsp;<a href="https://evekatsu.github.io/parrot-archives/tag/devburogu.html" class="tags selected">Devブログ</a>
+                    &nbsp;<a href="https://evekatsu.github.io/parrot-archives/tag/puresuririsu.html" class="tags">プレスリリース</a>
+                    &nbsp;<a href="https://evekatsu.github.io/parrot-archives/tag/fan-yi-ji-shi.html" class="tags">翻訳記事</a>
+                </div>
+            </article>            <h4 class="date">2018年<br />5月6日</h4>
+
+            <article class="post">
+                <h2 class="title">
+                    <a href="https://evekatsu.github.io/parrot-archives/1493.html" rel="bookmark" title="Permanent Link to &quot;ファクションシタデルの詳細を公開&quot;">ファクションシタデルの詳細を公開</a>
                 </h2>
 
                 
@@ -57,7 +178,7 @@
                 <p class="lead"><strong><a href="https://www.eveonline.com/article/p85rmg/faction-citadels-the-details">ファクションシタデルの詳細を公開</a></strong><br/>
 <em>2018-05-03 – By The EVE Dev Team</em></p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="413" src="https://evekatsu.github.io/parrot-archives/images/ファクションシタデルの詳細を公開-1.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="ファクションシタデルの詳細を公開-1" class="alignnone" height="413" src="https://evekatsu.github.io/parrot-archives/images/1493-1.jpg" width="580"/></p>
 
 <p>この開発者ブログについて議論したい方は、公式フォーラムの<a href="https://forums.eveonline.com/t/dev-blog-faction-citadels-the-details/74025">総合感想スレッド</a>をお気軽にご利用ください。</p>
 
@@ -90,7 +211,7 @@
 
 <p></p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/ファクションシタデルの詳細を公開-2.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="ファクションシタデルの詳細を公開-2" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/1493-2.jpg" width="580"/></p>
 
 <p>・ミンマターサービスアウトポストを代替。<br/>
 ・441個が出現。<br/>
@@ -114,7 +235,7 @@ HP(シールド/アーマー/ストラクチャ) : 18M hp (+3.6M)/27M hp (+5.4M)
 
 <p></p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/ファクションシタデルの詳細を公開-3.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="ファクションシタデルの詳細を公開-3" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/1493-3.jpg" width="580"/></p>
 
 <p>・ガレンテ行政アウトポストを代替。<br/>
 ・188個が出現。<br/>
@@ -138,7 +259,7 @@ HP(シールド/アーマー/ストラクチャ) : 14.4M hp/18M hp (+3.6M)/32.4M
 
 <p></p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/ファクションシタデルの詳細を公開-4.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="ファクションシタデルの詳細を公開-4" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/1493-4.jpg" width="580"/></p>
 
 <p>・アマー工場アウトポストを代替。<br/>
 ・398個が出現。<br/>
@@ -162,7 +283,7 @@ HP(シールド/アーマー/ストラクチャ) : 14.4M hp/21.6M hp (+7.2M)/27M
 
 <p></p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/ファクションシタデルの詳細を公開-5.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="ファクションシタデルの詳細を公開-5" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/1493-5.jpg" width="580"/></p>
 
 <p>・カルダリ研究アウトポストを代替。<br/>
 ・114個が出現。<br/>
@@ -186,7 +307,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/14.4M hp/27M
 
 <p></p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/ファクションシタデルの詳細を公開-6.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="ファクションシタデルの詳細を公開-6" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/1493-6.jpg" width="580"/></p>
 
 <p>・攻略可能ステーションを代替。<br/>
 ・68個が出現。<br/>
@@ -256,11 +377,11 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 <p>3月リリースから、コーポレーションのデフォルトプロファイルを設定できるようになっています。このプロファイルは新たに設置されたストラクチャに適用されており、変換後のファクションフォーティザーも対象となります。また、ファクションシタデルはアクセスリストの適用対象にもなるので注意してください。デフォルトプロファイルを設定するには、プロファイルを右クリックして「デフォルトプロファイルに設定する」を選択します。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="411" src="https://evekatsu.github.io/parrot-archives/images/ファクションシタデルの詳細を公開-7.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="ファクションシタデルの詳細を公開-7" class="alignnone" height="411" src="https://evekatsu.github.io/parrot-archives/images/1493-7.jpg" width="580"/></p>
 
 <p>デフォルトのリーンフォース時間とリーンフォース日を設定することも可能です。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="420" src="https://evekatsu.github.io/parrot-archives/images/ファクションシタデルの詳細を公開-8.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="ファクションシタデルの詳細を公開-8" class="alignnone" height="420" src="https://evekatsu.github.io/parrot-archives/images/1493-8.jpg" width="580"/></p>
 
 <p></p>
 
@@ -306,7 +427,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 <p>・アウトポストと攻略可能ステーションがコーポレーションによって所有されている場合、そのコーポレーションがファクションフォーティザーの所有者になります。デフォルトプロファイルはそのコーポレーションのものが適用され、入港権限、サービスのアクセス権、税率などに影響します。旧ストラクチャが所有権をめぐって紛争状態にあり、その紛争が終了していない場合、防衛側がファクションフォーティザーの所有者になります。<br/>
 ・アウトポストと攻略可能ステーションがコーポレーションによって所有されておらず、フリーポート状態になっている場合、その状態へ移行する直前にストラクチャを所有していたコーポレーションがファクションフォーティザーの所有者になります。</p>
 
-<p><img class="alignnone" height="413" src="https://evekatsu.github.io/parrot-archives/images/ファクションシタデルの詳細を公開-9.jpg" width="580"/><br/>
+<p><img alt="ファクションシタデルの詳細を公開-9" class="alignnone" height="413" src="https://evekatsu.github.io/parrot-archives/images/1493-9.jpg" width="580"/><br/>
 画像提供: Wilhelm Arcturus – <a href="https://evepics.wordpress.com/">evepics.wordpress.com</a></p>
 
 <p></p>
@@ -326,7 +447,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
             <article class="post">
                 <h2 class="title">
-                    <a href="https://evekatsu.github.io/parrot-archives/これがERICだ！ ～次回リリースにて実装予定～.html" rel="bookmark" title="Permanent Link to &quot;これがERICだ！ ～次回リリースにて実装予定～&quot;">これがERICだ！ ～次回リリースにて実装予定～</a>
+                    <a href="https://evekatsu.github.io/parrot-archives/1452.html" rel="bookmark" title="Permanent Link to &quot;これがERICだ！ ～次回リリースにて実装予定～&quot;">これがERICだ！ ～次回リリースにて実装予定～</a>
                 </h2>
 
                 
@@ -335,7 +456,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
                 <p class="lead"><strong><a href="https://www.eveonline.com/article/p6hym3/introducing-eric-coming-in-the-next-release">これがERICだ！ ～次回リリースにて実装予定～</a></strong><br/>
 <em>2018-04-01 – By The EVE Dev Team</em></p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="506" src="https://evekatsu.github.io/parrot-archives/images/これがERICだ！ ～次回リリースにて実装予定～-1.jpg" width="900"/></p>
+<p style="margin-bottom: 1em;"><img alt="これがERICだ！ ～次回リリースにて実装予定～-1" class="alignnone" height="506" src="https://evekatsu.github.io/parrot-archives/images/1452-1.png_w=900&amp;fm=jpg&amp;fl=progressive" width="900"/></p>
 
 <p>ファンフェス2018も間近に迫ってきたことですし、今年のニューエデンには何が待ち受けているのか、そろそろお話ししておこうと思います。</p>
 
@@ -367,7 +488,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 <p>そんな問題を解決するために開発されたのが、このERICです。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="288" src="https://evekatsu.github.io/parrot-archives/images/これがERICだ！ ～次回リリースにて実装予定～-2.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="これがERICだ！ ～次回リリースにて実装予定～-2" class="alignnone" height="288" src="https://evekatsu.github.io/parrot-archives/images/1452-2.png" width="580"/></p>
 
 <p>ERICはAURAが何年にもわたって実践してきた方法、すなわちアドバイスや補助機能を通じてパイロットを助け、彼らの学習と成長を促し、ニューエデンで最初の1歩を踏み出せるよう見守ります。</p>
 
@@ -379,21 +500,21 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 <p>テストプレイではERICが状況を認識し、プレイヤーの充実度を向上させるために極めて有益なアドバイスを行うことが証明されました。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="328" src="https://evekatsu.github.io/parrot-archives/images/これがERICだ！ ～次回リリースにて実装予定～-3.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="これがERICだ！ ～次回リリースにて実装予定～-3" class="alignnone" height="328" src="https://evekatsu.github.io/parrot-archives/images/1452-3.png" width="580"/></p>
 
 <p>上の画像は、20時間の長時間採掘作業を含むプレイでのERICからのアドバイスです。</p>
 
 <p>このような長時間のゲームプレイでERICに可能なのは、娯楽を確保してプレイヤーとの親交を深めることだけではありません。あなたが掘った鉱石を運んだり、投資利益率の最大化を目的として、現地リージョンの市場価格から採掘すべき鉱石を判断、助言することもできます。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="328" src="https://evekatsu.github.io/parrot-archives/images/これがERICだ！ ～次回リリースにて実装予定～-4.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="これがERICだ！ ～次回リリースにて実装予定～-4" class="alignnone" height="328" src="https://evekatsu.github.io/parrot-archives/images/1452-4.png" width="580"/></p>
 
 <p>上の画像はオートパイロット・プラグインをテストしたときのERICです。彼の高性能AIと交通監視アルゴリズムは、あなたの積荷、艦船、装備、インプラントの価値と、ニューエデン各地の活動状況と危険レベルを考慮し、最も安全なルートを提案します。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="328" src="https://evekatsu.github.io/parrot-archives/images/これがERICだ！ ～次回リリースにて実装予定～-5.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="これがERICだ！ ～次回リリースにて実装予定～-5" class="alignnone" height="328" src="https://evekatsu.github.io/parrot-archives/images/1452-5.png" width="580"/></p>
 
 <p>先ほど説明したように、あなたが非常に不利な状況で助けを必要としているとき、ERICは常に援護射撃やリモート支援を提供してくれます。また、戦闘時の最適な行動や、敵艦をより効率的かつ迅速に排除できるダメージ属性などもアドバイスします。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="325" src="https://evekatsu.github.io/parrot-archives/images/これがERICだ！ ～次回リリースにて実装予定～-6.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="これがERICだ！ ～次回リリースにて実装予定～-6" class="alignnone" height="325" src="https://evekatsu.github.io/parrot-archives/images/1452-6.png" width="580"/></p>
 
 <p>AURAは戦闘で死亡したパイロットを嘲笑したために批判されてきましたが、ERICの高性能AIは同じ轍を踏みません。艦船とインプラントを失うという最悪の事態が起きても、彼は感情面のサポートと財政的なアドバイスを提供できます。</p>
 
@@ -425,7 +546,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 <p>EVEの過酷なサンドボックス環境と、カプセラがしばしば直面する情緒的な試練を考慮し、私たちはハガー(Hugger)というERICの派生型をテストしています。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="171" src="https://evekatsu.github.io/parrot-archives/images/これがERICだ！ ～次回リリースにて実装予定～-7.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="これがERICだ！ ～次回リリースにて実装予定～-7" class="alignnone" height="171" src="https://evekatsu.github.io/parrot-archives/images/1452-7.jpg" width="580"/></p>
 
 <p>ハガーはカスタマイズ可能な腕パーツと毛皮のようなSKINを持ち、ERICのT2バージョンとして実装されます。このSKINのおかげで、通常モデルよりもずっと魅力的でフレンドリーな外見になるはずです。</p>
 
@@ -439,7 +560,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 <p>このERICのT2バージョンを利用したければ、ニューエデンストアから新商品の「カプセラ・ベル」チョーカーを購入してください。アバターが<del datetime="2018-04-01T14:42:28+00:00">虚飾アイテム</del>アパレルとして着用でき、ハガーをアンロックするためのインプラントとしても機能します。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/これがERICだ！ ～次回リリースにて実装予定～-8.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="これがERICだ！ ～次回リリースにて実装予定～-8" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/1452-8.jpg" width="580"/></p>
 
 <p></p>
 
@@ -447,7 +568,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 <p>どちらのERICも自艦のすぐ近くに展開しますが、もし彼らをさらに遠くに展開したい場合、例えばジタに向かわせ、あなたの代わりにマーケットで買いものさせたい場合は、ERICの機能を強化するための追加アクセサリーをニューエデンストアから購入できます。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="173" src="https://evekatsu.github.io/parrot-archives/images/これがERICだ！ ～次回リリースにて実装予定～-9.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="これがERICだ！ ～次回リリースにて実装予定～-9" class="alignnone" height="173" src="https://evekatsu.github.io/parrot-archives/images/1452-9.jpg" width="580"/></p>
 
 <p>「バスト」ドローン制御用頭部インプラントは、ニューエデンのどこからでもERICをコントロールしたい実業家や交易商人のため、イシュコネ社によって開発されました。</p>
 
@@ -462,7 +583,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 ・未締結公開契約の作成上限数が500件増加。<br/>
 ・マーケットの有効オーダー作成上限数が1000件増加。(小売スキルと大量販売スキルに効果上乗せ)</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="346" src="https://evekatsu.github.io/parrot-archives/images/これがERICだ！ ～次回リリースにて実装予定～-10.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="これがERICだ！ ～次回リリースにて実装予定～-10" class="alignnone" height="346" src="https://evekatsu.github.io/parrot-archives/images/1452-10.jpg" width="580"/></p>
 
 <p>似たアイテムに「アヌビス」ドローン制御用頭部インプラントがありますが、こちらは戦闘面に特化しており、ERICをカプセラに先行する偵察機として運用し、敵の動向を探ることができるようになります。</p>
 
@@ -500,7 +621,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
             <article class="post">
                 <h2 class="title">
-                    <a href="https://evekatsu.github.io/parrot-archives/3月リリースで領土戦とジャンプ疲労を仕様変更.html" rel="bookmark" title="Permanent Link to &quot;3月リリースで領土戦とジャンプ疲労を仕様変更&quot;">3月リリースで領土戦とジャンプ疲労を仕様変更</a>
+                    <a href="https://evekatsu.github.io/parrot-archives/1432.html" rel="bookmark" title="Permanent Link to &quot;3月リリースで領土戦とジャンプ疲労を仕様変更&quot;">3月リリースで領土戦とジャンプ疲労を仕様変更</a>
                 </h2>
 
                 
@@ -509,7 +630,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
                 <p class="lead"><strong><a href="https://www.eveonline.com/article/p4ia05/sovereignty-warfare-and-jump-fatigue-changes-coming-in-the-march-release">3月リリースで領土戦とジャンプ疲労を仕様変更</a></strong><br/>
 <em>2018-02-21 – By The EVE Dev Team</em></p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/3月リリースで領土戦とジャンプ疲労を仕様変更-1.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="3月リリースで領土戦とジャンプ疲労を仕様変更-1" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/1432-1.png" width="580"/></p>
 
 <p>猛々しいカプセラ諸君、ご機嫌よう！</p>
 
@@ -519,7 +640,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 <p>これから3月リリースの内容について簡単に説明しますが、それぞれの仕様変更についてスレッドを設置していますので、より詳細な情報や議論を望まれる方はそちらもご利用ください。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/3月リリースで領土戦とジャンプ疲労を仕様変更-2.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="3月リリースで領土戦とジャンプ疲労を仕様変更-2" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/1432-2.jpg" width="580"/></p>
 
 <p></p>
 
@@ -537,7 +658,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 <p>皆さんがこの計画をどう考えるか、私たちは非常に関心を持っています。ぜひ公式フォーラムのスレッドを確認し、ご意見、ご感想をお聞かせください。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="287" src="https://evekatsu.github.io/parrot-archives/images/3月リリースで領土戦とジャンプ疲労を仕様変更-3.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="3月リリースで領土戦とジャンプ疲労を仕様変更-3" class="alignnone" height="287" src="https://evekatsu.github.io/parrot-archives/images/1432-3.jpg" width="580"/></p>
 
 <p></p>
 
@@ -551,7 +672,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 <p>この変更はジャンプネットワークにおける中型ストラクチャの使用方法に影響を与えるでしょう。詳細を知りたい方、議論に参加したい方はぜひスレッドをご覧ください。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/3月リリースで領土戦とジャンプ疲労を仕様変更-4.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="3月リリースで領土戦とジャンプ疲労を仕様変更-4" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/1432-4.jpg" width="580"/></p>
 
 <p></p>
 
@@ -599,7 +720,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
             <article class="post">
                 <h2 class="title">
-                    <a href="https://evekatsu.github.io/parrot-archives/3月リリースの艦船リバランス.html" rel="bookmark" title="Permanent Link to &quot;3月リリースの艦船リバランス&quot;">3月リリースの艦船リバランス</a>
+                    <a href="https://evekatsu.github.io/parrot-archives/1418.html" rel="bookmark" title="Permanent Link to &quot;3月リリースの艦船リバランス&quot;">3月リリースの艦船リバランス</a>
                 </h2>
 
                 
@@ -608,7 +729,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
                 <p class="lead"><strong><a href="https://www.eveonline.com/article/p4ejjg/balance-changes-coming-in-the-march-release">3月リリースの艦船リバランス</a></strong><br/>
 <em>2018-02-19 – By The EVE Dev Team</em></p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="349" src="https://evekatsu.github.io/parrot-archives/images/3月リリースの艦船リバランス-1.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="3月リリースの艦船リバランス-1" class="alignnone" height="349" src="https://evekatsu.github.io/parrot-archives/images/1418-1.jpg" width="580"/></p>
 
 <p>艦船リバランスを楽しみにしている諸君、ご機嫌よう！</p>
 
@@ -621,7 +742,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 <p>さらに、3月リリースではまったく新しい船の実装も予定しています。新型艦は防御能力に特化しており、大規模戦におけるヘッドショット戦術…指揮官狙撃戦術に対抗することを目的とした船です。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/3月リリースの艦船リバランス-2.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="3月リリースの艦船リバランス-2" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/1418-2.jpg" width="580"/></p>
 
 <p></p>
 
@@ -630,7 +751,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 <p>・カーゴホールド容量 +25%<br/>
 ・最大ターゲット範囲 +20%</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/3月リリースの艦船リバランス-3.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="3月リリースの艦船リバランス-3" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/1418-3.jpg" width="580"/></p>
 
 <p><strong>◆強襲巡洋戦艦</strong></p>
 
@@ -646,7 +767,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 ・最大速度 -15m/s<br/>
 ・シグネチャ半径 +15m</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="308" src="https://evekatsu.github.io/parrot-archives/images/3月リリースの艦船リバランス-4.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="3月リリースの艦船リバランス-4" class="alignnone" height="308" src="https://evekatsu.github.io/parrot-archives/images/1418-4.jpg" width="580"/></p>
 
 <p><strong>◆フェロックス</strong></p>
 
@@ -672,7 +793,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 <p>・ランチャースロット -1</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/3月リリースの艦船リバランス-5.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="3月リリースの艦船リバランス-5" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/1418-5.png" width="580"/></p>
 
 <p><strong>◆サイクロン</strong></p>
 
@@ -701,7 +822,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 ・ハイスロット -1<br/>
 ・ミドルスロット +1</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/3月リリースの艦船リバランス-6.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="3月リリースの艦船リバランス-6" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/1418-6.jpg" width="580"/></p>
 
 <p><strong>◆モニター(Monitor)のご紹介</strong></p>
 
@@ -730,7 +851,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
             <article class="post">
                 <h2 class="title">
-                    <a href="https://evekatsu.github.io/parrot-archives/アップウェル2.0…2月13日にストラクチャを大変更！.html" rel="bookmark" title="Permanent Link to &quot;アップウェル2.0…2月13日にストラクチャを大変更！&quot;">アップウェル2.0…2月13日にストラクチャを大変更！</a>
+                    <a href="https://evekatsu.github.io/parrot-archives/1396.html" rel="bookmark" title="Permanent Link to &quot;アップウェル2.0…2月13日にストラクチャを大変更！&quot;">アップウェル2.0…2月13日にストラクチャを大変更！</a>
                 </h2>
 
                 
@@ -739,7 +860,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
                 <p class="lead"><strong><a href="https://www.eveonline.com/article/upwell-2.0-structures-changes-coming-on-february-13th">アップウェル2.0…2月13日にストラクチャを大変更！</a></strong><br/>
 <em>2018-01-19 – By Team Five 0</em></p>
 
-<p style="margin-bottom: 1em;"><img alt="" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/アップウェル2.0…2月13日にストラクチャを大変更！-1.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="アップウェル2.0…2月13日にストラクチャを大変更！-1" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/1396-1.jpg" width="580"/></p>
 
 <p>愛すべきカプセラ諸君、開発者ブログへようこそ！ 今回の記事は来月実施されるアップウェルストラクチャの改良についてご説明します！</p>
 
@@ -758,7 +879,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 <p>上記の主要な内容に加えて、アップウェルストラクチャと周辺要素に関する小さいながらも重要な変更が含まれます。</p>
 
-<p style="margin-bottom: 1em;"><img alt="" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/アップウェル2.0…2月13日にストラクチャを大変更！-2.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="アップウェル2.0…2月13日にストラクチャを大変更！-2" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/1396-2.jpg" width="580"/></p>
 
 <p><strong>◆第一の柱…「全力稼働モード」と「省力稼働モード」</strong></p>
 
@@ -775,9 +896,9 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 <p>ストラクチャが省力稼働モードかどうかはストラクチャ名のテキストブラケットから確認可能です。</p>
 
-<p style="margin-bottom: 1em;"><img alt="" class="alignnone" height="308" src="https://evekatsu.github.io/parrot-archives/images/アップウェル2.0…2月13日にストラクチャを大変更！-3.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="アップウェル2.0…2月13日にストラクチャを大変更！-3" class="alignnone" height="308" src="https://evekatsu.github.io/parrot-archives/images/1396-3.jpg" width="580"/></p>
 
-<p style="margin-bottom: 1em;"><img alt="" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/アップウェル2.0…2月13日にストラクチャを大変更！-4.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="アップウェル2.0…2月13日にストラクチャを大変更！-4" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/1396-4.jpg" width="580"/></p>
 
 <p><strong>◆第二の柱…脆弱性とリーンフォースの新システム</strong></p>
 
@@ -825,9 +946,9 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 <p>次のチャートは新システムにおけるアップウェルストラクチャのフローチャートです。</p>
 
-<p style="margin-bottom: 1em;"><img alt="" class="alignnone" height="510" src="https://evekatsu.github.io/parrot-archives/images/アップウェル2.0…2月13日にストラクチャを大変更！-5.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="アップウェル2.0…2月13日にストラクチャを大変更！-5" class="alignnone" height="510" src="https://evekatsu.github.io/parrot-archives/images/1396-5.jpg" width="580"/></p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="344" src="https://evekatsu.github.io/parrot-archives/images/アップウェル2.0…2月13日にストラクチャを大変更！-6.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="アップウェル2.0…2月13日にストラクチャを大変更！-6" class="alignnone" height="344" src="https://evekatsu.github.io/parrot-archives/images/1396-6.jpg" width="580"/></p>
 
 <p><strong>◆第三の柱…ストラクチャ戦闘のオーバーホール</strong></p>
 
@@ -863,7 +984,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 <p>また、少し前の会合でCSMと議論した結果、アップウェルストラクチャのターゲット範囲を大幅に拡大し、遠距離の敵艦とも交戦できるようにすることが決まりました。基本ターゲット範囲は400kmに強化される上、ターゲティング速度を向上させる既存のリグとモジュールにターゲット範囲ボーナスが追加され、これらを装備すれば最大490kmまで広がります。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="301" src="https://evekatsu.github.io/parrot-archives/images/アップウェル2.0…2月13日にストラクチャを大変更！-7.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="アップウェル2.0…2月13日にストラクチャを大変更！-7" class="alignnone" height="301" src="https://evekatsu.github.io/parrot-archives/images/1396-7.jpg" width="580"/></p>
 
 <p><strong>◆第四の柱…ワームホール宙域とハイセクでの衛星採掘</strong></p>
 
@@ -873,7 +994,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 <p>ハイセクとワームホール宙域の衛星には一般的な鉱石の亜種がランダムに含まれ、ローセクやヌルセクより量は少ないものの、ありふれた種類の衛星鉱石も混じっています。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="362" src="https://evekatsu.github.io/parrot-archives/images/アップウェル2.0…2月13日にストラクチャを大変更！-8.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="アップウェル2.0…2月13日にストラクチャを大変更！-8" class="alignnone" height="362" src="https://evekatsu.github.io/parrot-archives/images/1396-8.jpg" width="580"/></p>
 
 <p><strong>◆その他のアップウェル2.0の変更点</strong></p>
 
@@ -893,9 +1014,9 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 <p>さらに、オーバービューと宇宙空間のブラケットに新しいアイコンが増え、自艦がストラクチャへの入港許可を持つかどうかが表示されます。このアイコンを見れば、グリッド内のどのストラクチャが自分に開放されているか簡単に判断できるはずです。ただし、あなたの持つキャラクターの1人が入港許可を与えられていても、その他のキャラクターまで許可されているとは限らないという点にご注意ください。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="85" src="https://evekatsu.github.io/parrot-archives/images/アップウェル2.0…2月13日にストラクチャを大変更！-9.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="アップウェル2.0…2月13日にストラクチャを大変更！-9" class="alignnone" height="85" src="https://evekatsu.github.io/parrot-archives/images/1396-9.jpg" width="580"/></p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="81" src="https://evekatsu.github.io/parrot-archives/images/アップウェル2.0…2月13日にストラクチャを大変更！-10.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="アップウェル2.0…2月13日にストラクチャを大変更！-10" class="alignnone" height="81" src="https://evekatsu.github.io/parrot-archives/images/1396-10.jpg" width="580"/></p>
 
 <p>・NPCコーポレーションがプレイヤーコーポレーション同様にアクセスリストへ追加できるようになります。アクセスリスト管理者は必要に応じて、FWコープや新規プレイヤーが所属している初期コープをリストに加えられます。</p>
 
@@ -932,7 +1053,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
             <article class="post">
                 <h2 class="title">
-                    <a href="https://evekatsu.github.io/parrot-archives/公式サイトをアップグレード…ニュースページが新しくなりました！.html" rel="bookmark" title="Permanent Link to &quot;公式サイトをアップグレード…ニュースページが新しくなりました！&quot;">公式サイトをアップグレード…ニュースページが新しくなりました！</a>
+                    <a href="https://evekatsu.github.io/parrot-archives/1391.html" rel="bookmark" title="Permanent Link to &quot;公式サイトをアップグレード…ニュースページが新しくなりました！&quot;">公式サイトをアップグレード…ニュースページが新しくなりました！</a>
                 </h2>
 
                 
@@ -941,7 +1062,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
                 <p class="lead"><strong><a href="https://www.eveonline.com/article/p346mf/website-updates-new-community-news">公式サイトをアップグレード…ニュースページが新しくなりました！</a></strong><br/>
 <em>2018-01-25 – By CCP Falcon</em></p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="257" src="https://evekatsu.github.io/parrot-archives/images/公式サイトをアップグレード…ニュースページが新しくなりました！-1.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="公式サイトをアップグレード…ニュースページが新しくなりました！-1" class="alignnone" height="257" src="https://evekatsu.github.io/parrot-archives/images/1391-1.png" width="580"/></p>
 
 <p>EVE Onlineのコミュニティウェブサイトがアップグレードされ、ニュースページが新しくなったことをお知らせします。</p>
 
@@ -973,7 +1094,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
             <article class="post">
                 <h2 class="title">
-                    <a href="https://evekatsu.github.io/parrot-archives/今は亡きCCP Blazeへ…EVEコミュニティからの贈り物.html" rel="bookmark" title="Permanent Link to &quot;今は亡きCCP Blazeへ…EVEコミュニティからの贈り物&quot;">今は亡きCCP Blazeへ…EVEコミュニティからの贈り物</a>
+                    <a href="https://evekatsu.github.io/parrot-archives/1383.html" rel="bookmark" title="Permanent Link to &quot;今は亡きCCP Blazeへ…EVEコミュニティからの贈り物&quot;">今は亡きCCP Blazeへ…EVEコミュニティからの贈り物</a>
                 </h2>
 
                 
@@ -982,7 +1103,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
                 <p class="lead"><strong><a href="https://community.eveonline.com/news/dev-blogs/a-tribute-to-ccp-blaze-an-incredible-community-effort/">今は亡きCCP Blazeへ…EVEコミュニティからの贈り物</a></strong><br/>
 <em>2018-01-19 15:39 By CCP Falcon</em></p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/今は亡きCCP Blazeへ…EVEコミュニティからの贈り物-1.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="今は亡きCCP Blazeへ…EVEコミュニティからの贈り物-1" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/1383-1.jpg" width="580"/></p>
 
 <p>ホリデーシーズンの少し前、私たちはCCP Blazeが死去したことを知らせる悲しい開発者ブログを公開しました。彼はCCPのアイスランド本社に勤務し、オーディオ&amp;グラフィックチームの一員として長年活躍してきました。</p>
 
@@ -992,9 +1113,9 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 <p>今回の開発者ブログはかなり短いですが、それというのも、かくも素晴らしいEVEコミュニティへ捧げるべき感謝の言葉が見つからないのです。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="319" src="https://evekatsu.github.io/parrot-archives/images/今は亡きCCP Blazeへ…EVEコミュニティからの贈り物-2.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="今は亡きCCP Blazeへ…EVEコミュニティからの贈り物-2" class="alignnone" height="319" src="https://evekatsu.github.io/parrot-archives/images/1383-2.jpg" width="580"/></p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="327" src="https://evekatsu.github.io/parrot-archives/images/今は亡きCCP Blazeへ…EVEコミュニティからの贈り物-3.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="今は亡きCCP Blazeへ…EVEコミュニティからの贈り物-3" class="alignnone" height="327" src="https://evekatsu.github.io/parrot-archives/images/1383-3.jpg" width="580"/></p>
 
 <p>ここは数字に語ってもらいましょう。</p>
 
@@ -1024,7 +1145,7 @@ EVEユニバースコミュニティマネージャー、<a href="https://twitte
 
             <article class="post">
                 <h2 class="title">
-                    <a href="https://evekatsu.github.io/parrot-archives/ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート.html" rel="bookmark" title="Permanent Link to &quot;ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート&quot;">ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート</a>
+                    <a href="https://evekatsu.github.io/parrot-archives/1354.html" rel="bookmark" title="Permanent Link to &quot;ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート&quot;">ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート</a>
                 </h2>
 
                 
@@ -1033,7 +1154,7 @@ EVEユニバースコミュニティマネージャー、<a href="https://twitte
                 <p class="lead"><strong><a href="https://community.eveonline.com/news/dev-blogs/updates-to-the-agency-journal-and-agent-finder/">ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート</a></strong><br/>
 <em>2017-12-21 13:42 By Team Psycho Sisters</em></p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="329" src="https://evekatsu.github.io/parrot-archives/images/ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート-1.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート-1" class="alignnone" height="329" src="https://evekatsu.github.io/parrot-archives/images/1354-1.png" width="580"/></p>
 
 <p>カプセラ諸君、ご機嫌よう。</p>
 
@@ -1073,21 +1194,21 @@ EVEユニバースコミュニティマネージャー、<a href="https://twitte
 
 <p>下の画像は国家間戦争カードの例です。星系の支配勢力や現状(安定状態なのか、それとも攻略可能状態なのか等)を確認できます。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="91" src="https://evekatsu.github.io/parrot-archives/images/ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート-2.jpg" width="382"/></p>
+<p style="margin-bottom: 1em;"><img alt="ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート-2" class="alignnone" height="91" src="https://evekatsu.github.io/parrot-archives/images/1354-2.png" width="382"/></p>
 
 <p>基本カードは他の戦闘サイトと区別できるように変更されます。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="88" src="https://evekatsu.github.io/parrot-archives/images/ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート-3.jpg" width="324"/></p>
+<p style="margin-bottom: 1em;"><img alt="ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート-3" class="alignnone" height="88" src="https://evekatsu.github.io/parrot-archives/images/1354-3.png" width="324"/></p>
 
 <p>下の画像はインカージョンカードの例です。インカージョンが発生しているコンステレーション、集結地の場所、インカージョンの段階(確立、続行、撤退)、ペナルティレベル、NPCレベナントの有無を確認できます。</p>
 
 <p>基本状態:</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="90" src="https://evekatsu.github.io/parrot-archives/images/ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート-4.jpg" width="327"/></p>
+<p style="margin-bottom: 1em;"><img alt="ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート-4" class="alignnone" height="90" src="https://evekatsu.github.io/parrot-archives/images/1354-4.png" width="327"/></p>
 
 <p>拡張状態:</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="228" src="https://evekatsu.github.io/parrot-archives/images/ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート-5.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート-5" class="alignnone" height="228" src="https://evekatsu.github.io/parrot-archives/images/1354-5.png" width="580"/></p>
 
 <p>国家間戦争と同じく、インカージョンカードにもコンテンツに応じた表示がなされます。また、関連情報はすべて拡張カードへ移動しました。</p>
 
@@ -1101,7 +1222,7 @@ EVEユニバースコミュニティマネージャー、<a href="https://twitte
 
 <p>拡張カードを読んでストーリーを追いかけられますし、エピックアーク全体の進行状況や、次のチャプターまであとどのくらいかといった情報も確認できます。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="261" src="https://evekatsu.github.io/parrot-archives/images/ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート-6.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート-6" class="alignnone" height="261" src="https://evekatsu.github.io/parrot-archives/images/1354-6.png" width="580"/></p>
 
 <p> </p>
 
@@ -1148,7 +1269,7 @@ EVEユニバースコミュニティマネージャー、<a href="https://twitte
 
 <p>また、ボタンの配置もより使いやすくなるよう変更し、「契約の種類」ドロップダウンメニューを「契約リスト」タブの一番最初に持ってきます。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="181" src="https://evekatsu.github.io/parrot-archives/images/ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート-7.jpg" width="580"/></p>
+<p style="margin-bottom: 1em;"><img alt="ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート-7" class="alignnone" height="181" src="https://evekatsu.github.io/parrot-archives/images/1354-7.png" width="580"/></p>
 
 <p> </p>
 
@@ -1156,7 +1277,7 @@ EVEユニバースコミュニティマネージャー、<a href="https://twitte
 
 <p>このタブは惑星コロニーウィンドウに移されます。機能は何ら変わらず、PI関係が一箇所で行えるようになります。</p>
 
-<p style="margin-bottom: 1em;"><img class="alignnone" height="187" src="https://evekatsu.github.io/parrot-archives/images/ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート-8.jpg" width="407"/></p>
+<p style="margin-bottom: 1em;"><img alt="ザ・エージェンシー、ジャーナル、エージェントファインダーのアップデート-8" class="alignnone" height="187" src="https://evekatsu.github.io/parrot-archives/images/1354-8.png" width="407"/></p>
 
 <p> </p>
 
@@ -1199,7 +1320,7 @@ EVEユニバースコミュニティマネージャー、<a href="https://twitte
 
             <article class="post">
                 <h2 class="title">
-                    <a href="https://evekatsu.github.io/parrot-archives/不正行為に関する告知…国家間戦争の領域管理用拠点近くにアップウェルストラクチャを配置する行為について.html" rel="bookmark" title="Permanent Link to &quot;不正行為に関する告知…国家間戦争の領域管理用拠点近くにアップウェルストラクチャを配置する行為について&quot;">不正行為に関する告知…国家間戦争の領域管理用拠点近くにアップウェルストラクチャを配置する行為について</a>
+                    <a href="https://evekatsu.github.io/parrot-archives/1348.html" rel="bookmark" title="Permanent Link to &quot;不正行為に関する告知…国家間戦争の領域管理用拠点近くにアップウェルストラクチャを配置する行為について&quot;">不正行為に関する告知…国家間戦争の領域管理用拠点近くにアップウェルストラクチャを配置する行為について</a>
                 </h2>
 
                 
@@ -1221,76 +1342,6 @@ EVEユニバースコミュニティマネージャー、<a href="https://twitte
 <p>指示された時間内に係留が解除されない場合、ストラクチャは破壊されます。</p>
 
 <p>この問題は1月リリースで修正される予定です。</p>
-                <div class="clear"></div>
-
-                <div class="info">
-                    &nbsp;&middot;
-                    &nbsp;<a href="https://evekatsu.github.io/parrot-archives/tag/devburogu.html" class="tags selected">Devブログ</a>
-                    &nbsp;<a href="https://evekatsu.github.io/parrot-archives/tag/puresuririsu.html" class="tags">プレスリリース</a>
-                    &nbsp;<a href="https://evekatsu.github.io/parrot-archives/tag/fan-yi-ji-shi.html" class="tags">翻訳記事</a>
-                </div>
-            </article>            <h4 class="date">2017年<br />12月13日</h4>
-
-            <article class="post">
-                <h2 class="title">
-                    <a href="https://evekatsu.github.io/parrot-archives/亡き友に捧げる新SKIN.html" rel="bookmark" title="Permanent Link to &quot;亡き友に捧げる新SKIN&quot;">亡き友に捧げる新SKIN</a>
-                </h2>
-
-                
-                
-
-                <p class="lead"><strong><a href="https://community.eveonline.com/news/dev-blogs/a-new-skin-and-a-tribute-to-a-fallen-wingman/">亡き友に捧げる新SKIN</a></strong><br/>
-<em>2017-12-12 11:25 By Team TriLambda</em></p>
-
-<p style="margin-bottom: 1em;"><img class="alignnone" height="256" src="https://evekatsu.github.io/parrot-archives/images/亡き友に捧げる新SKIN-1.jpg" width="256"/><img class="alignnone" height="256" src="https://evekatsu.github.io/parrot-archives/images/亡き友に捧げる新SKIN-2.jpg" width="256"/></p>
-
-<p>今日から4週間ほど前の11月14日、CCPは社員の1人が亡くなったという悲しいニュースを受け取りました。</p>
-
-<p>CCP Blazeはオーディオ&amp;グラフィックチームのシニアソフトウェアエンジニアでした。彼は婚約祝いの休暇をロンドンで楽しんでいましたが、35歳の若さで突如この世を去りました。</p>
-
-<p>彼の婚約者と1歳のご息女はレイキャヴィクに住んでいます。CCP Blazeはアイスランド本社に勤務し、8年にわたってEVE Onlineに携わるなかでCCPに多大な功績を残しました。</p>
-
-<p>Blazeは本当に熟練したグラフィックプログラマーでした。Team TriLambdaが過去8年間に手がけたほぼ全ての作業に参加し、プレイヤーがニューエデンで毎日のように目にする光景、例えばワープトンネルや戦術オーバーレイ、テンポラル・アンチエイリアシングなどを作り上げるために幅広く貢献しました。</p>
-
-<p>ここ3週間、CCPは私たちなりの方法でBlazeに別れを告げ、社内で寄付を募り、この困難な時を乗り越えるために彼の家族、友人、そして同僚たちをサポートしてきました。</p>
-
-<p>そして、私たちは残された人々を支えると同時に、彼の素晴らしい成果と創造性を称えることも極めて重要だと考えました。</p>
-
-<p>私たちはCCP Blazeに敬意を表し、彼の功績を称える1つの手段として新しいSKINをリリースします。</p>
-
-<p>これらのSKINから得られたすべての利益は、CCP GamesがEVEコミュニティを代表して彼の婚約者とご息女へ寄付します。</p>
-
-<p>それでは、今日発売の「ブレイズ」スコードロンSKIN(“Blaze” Squadron SKIN)セットをご紹介しましょう。</p>
-
-<p style="margin-bottom: 1em;"><img class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/亡き友に捧げる新SKIN-3.jpg" width="580"/></p>
-
-<p>これらのSKINが販売されるのは今回一度きり、今日から12月19日のダウンタイムまでです。その後はニューエデンストアから削除され、二度と再販されることはありません。</p>
-
-<p>販売されるのは495PLEXのバンドルセットで、対象は次の艦船です。</p>
-
-<p>・バーゲスト<br/>
-・ケルベロス<br/>
-・ハリケーン<br/>
-・イシュタル<br/>
-・オラクル</p>
-
-<p>また、上記とは別にアルマゲドン用SKINも110PLEXで販売します。アルマゲドンはCCP Blazeお気に入りの船でした。</p>
-
-<p style="margin-bottom: 1em;"><img class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/亡き友に捧げる新SKIN-4.jpg" width="580"/></p>
-
-<p>繰り返しますが、これらのSKINを販売して得られた利益は、EVEコミュニティに代わって全額をCCP Blazeの婚約者とご息女に寄付します。</p>
-
-<p>「ブレイズ」スコードロンSKINの説明文は次のとおりです。</p>
-
-<p><em>「ブレイズ」スコードロンSKIN (永続)</em></p>
-
-<p>わずか6種類の艦船にのみ使用できるこのナノコーティングは、YC119年後半、ドミネーションズが誇る悪名高き「ブレイズ」遊撃隊の指揮官が戦死した際、エンジェルカルテルの技術者が彼への手向けとして制作した。</p>
-
-<p>「ブレイズ」という名は指揮官の金赤色の髭と、彼が残していった数々の燃えさかる残骸にちなんだ名前だ。共和国海軍へ幾度となく大胆不敵な攻撃を仕掛けた結果、彼の部隊も同じ名前で呼ばれるようになった。</p>
-
-<p>今ではエンジェルカルテルで最も成功した恐るべき海賊に敬意を表し、隊員は彼の色を帯びるようになっている。</p>
-
-<p><em>「死してなお忘れられることはない。彼の名は諸君の内に生きつづけるだろう。彼の色を掲げよ、そして立ちはだかる者は何者であれ皆殺しだ」 ー トラルド・ヴケンダ、ドミネーションズ首領</em></p>
                 <div class="clear"></div>
 
                 <div class="info">
