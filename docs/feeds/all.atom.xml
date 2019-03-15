@@ -1,5 +1,661 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Parrot Archives</title><link href="https://evekatsu.github.io/parrot-archives/" rel="alternate"></link><link href="https://evekatsu.github.io/parrot-archives/feeds/all.atom.xml" rel="self"></link><id>https://evekatsu.github.io/parrot-archives/</id><updated>2019-02-28T00:00:00+09:00</updated><entry><title>CONCORDのドリフターズに関する記者会見が中断 スコープ記者とアマー代表が口論</title><link href="https://evekatsu.github.io/parrot-archives/1976.html" rel="alternate"></link><published>2019-02-28T00:00:00+09:00</published><updated>2019-02-28T00:00:00+09:00</updated><author><name>Parrot</name></author><id>tag:evekatsu.github.io,2019-02-28:/parrot-archives/1976.html</id><summary type="html">&lt;p class="lead"&gt;&lt;strong&gt;&lt;a href="https://community.eveonline.com/news/news-channels/world-news/concord-press-conference-on-drifters-disrupted-by-shouting-match-between-scope-journalist-and-amarr-inner-circle-member/"&gt;CONCORDのドリフターズに関する記者会見が中断 スコープ記者とアマー代表が口論&lt;/a&gt;&lt;/strong&gt;&lt;br/&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Parrot Archives</title><link href="https://evekatsu.github.io/parrot-archives/" rel="alternate"></link><link href="https://evekatsu.github.io/parrot-archives/feeds/all.atom.xml" rel="self"></link><id>https://evekatsu.github.io/parrot-archives/</id><updated>2019-03-16T00:00:00+09:00</updated><entry><title>春のバランス調整がやってくる！</title><link href="https://evekatsu.github.io/parrot-archives/2021.html" rel="alternate"></link><published>2019-03-16T00:00:00+09:00</published><updated>2019-03-16T00:00:00+09:00</updated><author><name>Parrot</name></author><id>tag:evekatsu.github.io,2019-03-16:/parrot-archives/2021.html</id><summary type="html">&lt;p class="lead"&gt;&lt;strong&gt;&lt;a href="https://www.eveonline.com/article/pobbb9/spring-balance-update-incoming"&gt;春のバランス調整がやってくる！&lt;/a&gt;&lt;/strong&gt;&lt;br/&gt;
+&lt;em&gt;2019-03-13 – By The EVE Dev Team&lt;/em&gt;&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="春のバランス調整がやってくる！-1" class="alignnone" height="375" src="https://evekatsu.github.io/parrot-archives/images/2021-1.jpeg" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;この開発者ブログについて議論したい方は、公式フォーラムの&lt;a href="https://forums.eveonline.com/t/devblog-spring-balance-update-incoming/145831"&gt;総合感想スレッド&lt;/a&gt;をお気軽にご利用ください。&lt;/p&gt;
+
+&lt;p&gt;カプセラ諸君、ご機嫌よう！&lt;/p&gt;
+
+&lt;p&gt;今回の開発者ブログは、4月に実施される大規模なバランス調整と、夏に向けた計画についてお話ししたいと思います。&lt;/p&gt;
+
+&lt;p&gt;この春は主力艦のバランス調整を重点的に行います。巨艦たちが圧倒的な存在感を放っていた頃から、コストと秘められた野望に応えられず苦戦していた時期まで、主力艦のバランス調整は常に難しい問題でした。「Citadel」エクスパンションは主力艦パイロット達に力を取り戻してもらうのが狙いでしたが、最近はやや行き過ぎたところが見受けられるようになりました。主力艦は今や、EVEのほとんどの障害を粉砕する万能解決策になってしまった感があります。&lt;/p&gt;
+
+&lt;p&gt;最大の船が生み出した最大の問題に取り組むうえで、CSMの協力はとても役立ちました。私たちが改善したいと考えている主な問題は次の2つです。&lt;/p&gt;
+
+&lt;p&gt;・大規模戦闘で支援型主力艦がストレス要因になっている問題。FAXの性能は調整済みですが、それでも相当な火力を無効化することができ、あらゆる場所で大型主力艦の撃沈を妨げてきました。戦いに負ける側にとって、これはかなり辛い状況です。ありったけの攻城艦を費やしても何ら戦果が得られないのですから。&lt;br/&gt;
+・主力艦の火力が準主力艦の存在感を弱めている問題。主力艦は極めて強力な存在であってほしいものですが、どんな規模の戦いでも準主力艦が活躍する余地がなければなりません。今のところ、それが実現できているとは言えないようです。&lt;/p&gt;
+
+&lt;p&gt;というわけで、これから説明する変更内容を通して、より良い戦いを実現していきたいと思います。私たちが目指すのは、準主力艦がもっと活躍でき、今以上に多くの支援型主力艦が出撃しても満足感を得られる戦いです。一度にすべて解決するような修正を施すわけではありません。数回のアップデートにわたり様々な角度から取り組まねばならないでしょうが、今回のバランス調整が正しい方向をむいた強力なスタートになることを願っています。&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="春のバランス調整がやってくる！-2" class="alignnone" height="338" src="https://evekatsu.github.io/parrot-archives/images/2021-2.png" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;◆まずは支援型主力艦とタンクスケーリングから …&lt;/strong&gt;&lt;/p&gt;</summary><content type="html">&lt;p class="lead"&gt;&lt;strong&gt;&lt;a href="https://www.eveonline.com/article/pobbb9/spring-balance-update-incoming"&gt;春のバランス調整がやってくる！&lt;/a&gt;&lt;/strong&gt;&lt;br/&gt;
+&lt;em&gt;2019-03-13 – By The EVE Dev Team&lt;/em&gt;&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="春のバランス調整がやってくる！-1" class="alignnone" height="375" src="https://evekatsu.github.io/parrot-archives/images/2021-1.jpeg" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;この開発者ブログについて議論したい方は、公式フォーラムの&lt;a href="https://forums.eveonline.com/t/devblog-spring-balance-update-incoming/145831"&gt;総合感想スレッド&lt;/a&gt;をお気軽にご利用ください。&lt;/p&gt;
+
+&lt;p&gt;カプセラ諸君、ご機嫌よう！&lt;/p&gt;
+
+&lt;p&gt;今回の開発者ブログは、4月に実施される大規模なバランス調整と、夏に向けた計画についてお話ししたいと思います。&lt;/p&gt;
+
+&lt;p&gt;この春は主力艦のバランス調整を重点的に行います。巨艦たちが圧倒的な存在感を放っていた頃から、コストと秘められた野望に応えられず苦戦していた時期まで、主力艦のバランス調整は常に難しい問題でした。「Citadel」エクスパンションは主力艦パイロット達に力を取り戻してもらうのが狙いでしたが、最近はやや行き過ぎたところが見受けられるようになりました。主力艦は今や、EVEのほとんどの障害を粉砕する万能解決策になってしまった感があります。&lt;/p&gt;
+
+&lt;p&gt;最大の船が生み出した最大の問題に取り組むうえで、CSMの協力はとても役立ちました。私たちが改善したいと考えている主な問題は次の2つです。&lt;/p&gt;
+
+&lt;p&gt;・大規模戦闘で支援型主力艦がストレス要因になっている問題。FAXの性能は調整済みですが、それでも相当な火力を無効化することができ、あらゆる場所で大型主力艦の撃沈を妨げてきました。戦いに負ける側にとって、これはかなり辛い状況です。ありったけの攻城艦を費やしても何ら戦果が得られないのですから。&lt;br/&gt;
+・主力艦の火力が準主力艦の存在感を弱めている問題。主力艦は極めて強力な存在であってほしいものですが、どんな規模の戦いでも準主力艦が活躍する余地がなければなりません。今のところ、それが実現できているとは言えないようです。&lt;/p&gt;
+
+&lt;p&gt;というわけで、これから説明する変更内容を通して、より良い戦いを実現していきたいと思います。私たちが目指すのは、準主力艦がもっと活躍でき、今以上に多くの支援型主力艦が出撃しても満足感を得られる戦いです。一度にすべて解決するような修正を施すわけではありません。数回のアップデートにわたり様々な角度から取り組まねばならないでしょうが、今回のバランス調整が正しい方向をむいた強力なスタートになることを願っています。&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="春のバランス調整がやってくる！-2" class="alignnone" height="338" src="https://evekatsu.github.io/parrot-archives/images/2021-2.png" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;◆まずは支援型主力艦とタンクスケーリングから&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;変更内容: すべてのリモートリペアラとリモートキャパシタトランスミッターに新たな減衰システムを追加。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;私たちはずっと前からこうした減衰システムを実現したいと考え、何度も検討してきました。近年になって「Brain in a Box」などの目に見えない改善のおかげで、パフォーマンスを損なうことなくシステムを追求できるようになりました。&lt;/p&gt;
+
+&lt;p&gt;減衰システムの詳細は少し複雑ですが、コンセプトはとても単純なので、少しグラフを見ればどういうことなのか理解できるはずです。システムは受け取るリペアが重複した際に適用され、新たなリペアが加わった時点での「秒あたり合計リペア量」に基づいて変動します。簡単に言えば、「秒あたり合計リペア量」が増えれば増えるほど、追加で受け取るリペアの効果が小さくなります。減衰システムをリペア量基準にしている理由は、あなたのFAX艦隊が敵のスモールリペアラで無力化されるのを防ぐためです。また、リペア減衰の感じ方は支援艦の規模によって変わってくるでしょう。現時点で予定されている仕様なら、準主力艦クラスよりも主力艦クラスではるかに大きな変化を感じるはずです。&lt;/p&gt;
+
+&lt;p&gt;減衰システムはあらゆるリモートアーマーリペアラ、リモートシールドブースター、リモートキャパシタトランスミッターに適用されますが、主力艦クラスのリモートリペアラが最も強く影響を受けると思われます。何枚かグラフを見てみましょう。&lt;/p&gt;
+
+&lt;p&gt;これは同一ターゲットに向けた各FAXのリペア量(トリアージモードのアポスルが生成する約1600hp/秒に基づく)を%で表したものです。&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="春のバランス調整がやってくる！-3" class="alignnone" height="371" src="https://evekatsu.github.io/parrot-archives/images/2021-3.png" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;そして、こちらは具体的なリペア量のグラフです。オレンジ色は減衰システムが適用されており、青色はペナルティ無しの従来仕様です。&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="春のバランス調整がやってくる！-4" class="alignnone" height="311" src="https://evekatsu.github.io/parrot-archives/images/2021-4.png" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;グラフを分かりやすくするため、いくつか例を挙げます。&lt;br/&gt;
+・リペア15個(だいたいFAX5隻)までは80%ほどの効果があります。&lt;br/&gt;
+・リペア38個(FAX10隻か11隻)でも50%以上の効果が維持できます。&lt;br/&gt;
+・リペア150個(FAX45隻くらい)だと従来仕様の半分以下の効果になります。&lt;/p&gt;
+
+&lt;p&gt;減衰システムはリペア数ではなくリペア量によって変動するため、巡洋艦クラスの支援では影響は小さくなります。&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="春のバランス調整がやってくる！-5" class="alignnone" height="374" src="https://evekatsu.github.io/parrot-archives/images/2021-5.png" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;こちらは先ほどと同じ、具体的なリペア量のグラフです。&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="春のバランス調整がやってくる！-6" class="alignnone" height="312" src="https://evekatsu.github.io/parrot-archives/images/2021-6.png" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;巡洋艦クラスでは減衰システムの影響が小さいのと同じ理由から、スモールリペアラを使って敵フリートを妨害することはできません。次のグラフは最初にFAXサイズのリペアを適用し、次に25個のスモールリペアラを適用、そして再びFAXサイズのリペアを適用したグラフです。スモールリペアラが適用されなかった場合と同じく、FAX2隻目のリペア効果は90%以上を維持しています。&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="春のバランス調整がやってくる！-7" class="alignnone" height="376" src="https://evekatsu.github.io/parrot-archives/images/2021-7.png" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;将来、リモートリペアや他のリモート支援にバランス調整を施すとき、この減衰システムは新たな調整方法として活用できます。準主力艦に対する影響を大きくしたり、主力艦に対する影響を小さくしたり、あるいは全く別の設定を実行するよう応用することも可能です。皆さんのフィードバックはこのシステムにとって極めて重要ですので、ぜひご意見をお聞かせください。結論を出すために他の情報が必要であれば、それもお知らせください。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;多くの要素が準主力艦の生残性を低下させていますが、そのほとんどは、主力艦が準主力艦へ非常に大きな火力を叩きつけていることに関係しています。また、戦闘機の機能性が向上したため、かつて準主力艦が果たしていた役割を乗っ取ってしまい、彼らにさらなる苦汁をなめさせる結果となってしまいました。私たちは主力艦だけでなく準主力艦の役割と機能性にも手を加え、この状況を改善したいと考えています。トリグラヴィアン艦は主力艦を弱体化することなく準主力艦の存在感を向上させた良い例です。まずは主力艦の変更内容から見てみましょう。&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="春のバランス調整がやってくる！-8" class="alignnone" height="344" src="https://evekatsu.github.io/parrot-archives/images/2021-8.png" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;こうした問題では、高角兵器(HAW)は恐るべき加害者です。特にタイタンの大集団が使用すると手がつけられません。毎秒5,000以上のダメージを簡単に実現するHAWタイタンは、あまりに強力で汎用性が高すぎます。タイタンが現在ほど問題児にならないよう、HAW攻城艦のパワーを維持しつつHAWタイタンを弱体化したいと思います。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;変更内容: すべての高角兵器のダメージ修正乗数を50%減少。シージモードでのダメージ修正乗数は100%増加。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;これによりHAWタイタンのDPSは半分になりますが、HAW攻城艦のDPSは現状維持となります。&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="春のバランス調整がやってくる！-9" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/2021-9.png" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;現在の艦載機母艦と大型艦載機母艦はあらゆるサイズの準主力艦に対し、何ら支援を受けなくても強烈なダメージを与えることができます。私たちは支援を受けていない戦闘機の小型艦に対するダメージを減少させたいと考えていますが、ターゲットを足止めする支援役パイロットにも報いなければなりません。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;変更内容: あらゆる戦闘機の攻撃について、爆発半径を15%増加、爆発速度を30%減少。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;小型艦へ与えるダメージが減少しますが、ターゲットの速度を低下させれば埋め合わせがききます。この変更によって戦闘機の脅威度が低下すると同時に、準主力艦と戦闘機のバランスがとれることを願っています。&lt;/p&gt;
+
+&lt;p&gt;戦闘機の性能変更に加えて、ネットワークセンサーアレイを使用した際のリスクを高めるため、NSA起動中は艦船のワープを不可とします。ターゲット速度を超高速化するNSAはPvEにおいて極めて強力で、PvPでもセイレーンとの組み合わせが威力を発揮するため、この仕様変更によってNSAに新たな危険要素を追加します。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;リスクを高めるといえば、私たちは主力艦の損失が安価な保険でカバーできてしまうことを快く思っていません。大型艦の損失は意味ある出来事であってほしいですし、FAXや艦載機母艦を保険金であっさりと買いなおせる現状は、主力艦との戦いに大きな不満をもたらしています。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;変更内容: 多くの艦船について、保険契約料と支払い乗数を調整。大型T1艦は小型艦よりも支払い乗数が低くなります。この変更で最も大きな影響を受けるのは大型艦載機母艦と一般的な主力艦で、前者の保険契約料と支払い乗数は約50%減少、後者は33%減少します。&lt;/em&gt;&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="春のバランス調整がやってくる！-10" class="alignnone" height="328" src="https://evekatsu.github.io/parrot-archives/images/2021-10.png" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;◆準主力艦のバランス調整&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;私たちは準主力艦にも大幅な変更を加える予定ですが、その目的の一つはレーザー艦に新たな生命を吹きこむことです。また、人気の艦船にも少しばかり調整を施し、別の艦船が活躍できる可能性を広げたいと思います。&lt;/p&gt;
+
+&lt;p&gt;・ミディアムビームレーザー&lt;br/&gt;
+→最適射程距離が10%拡大&lt;/p&gt;
+
+&lt;p&gt;・ハービンジャー&lt;br/&gt;
+→PGが1550へ増加(これまでは1425)&lt;/p&gt;
+
+&lt;p&gt;・アバドン&lt;br/&gt;
+→スキルレベル(アマー戦艦)ごとのボーナス: 大型エネルギータレットのダメージ +7.5% (これまでは5%)&lt;/p&gt;
+
+&lt;p&gt;・サイクロン&lt;br/&gt;
+→CPUが25増加&lt;/p&gt;
+
+&lt;p&gt;・カラカル海軍仕様&lt;br/&gt;
+→ドローン収容量とドローン帯域幅が25増加&lt;/p&gt;
+
+&lt;p&gt;・コラックス&lt;br/&gt;
+→PGが53へ増加 (これまでは48)&lt;/p&gt;
+
+&lt;p&gt;・ベクサー海軍仕様&lt;br/&gt;
+→ドローン最高速度ボーナスを削除&lt;br/&gt;
+→シグネチャ半径が145mへ増加 (これまでは135m)&lt;/p&gt;
+
+&lt;p&gt;・ギラ&lt;br/&gt;
+→ドローンHPボーナスを250%へ減少 (これまでは500%)&lt;/p&gt;
+
+&lt;p&gt;・フェロックス&lt;br/&gt;
+→最高速度を145m/sへ低下 (これまでは150m/s)&lt;br/&gt;
+→質量が14,250,000kgへ増加 (これまでは13,250,000kg)&lt;br/&gt;
+→慣性修正乗数が0.66へ増加 (これまでは0.63)&lt;br/&gt;
+→シグネチャ半径が325mへ増加 (これまでは295)&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="春のバランス調整がやってくる！-11" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/2021-11.png" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;◆ロークアル&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;ロークアルは恐ろしくパワフルな採掘指揮艦です。その採掘力、汎用性、防御力の組み合わせは他の採掘艦を圧倒し、EVE経済が持続不可能になるほどの無機物をもたらしています。コミュニティからはロークアル弱体化を望む多くの声があがっており、私たちはこの巨獣に少し落ち着いてもらう計画を立てています。&lt;/p&gt;
+
+&lt;p&gt;最初の2つの変更は、ロークアルの防御力を下げて撃沈しやすくすることが目的です。&lt;/p&gt;
+
+&lt;p&gt;・インダストリアルコアのシールドブースターボーナスを変更し、T1は60%、T2は75%へ減少。(これまでは120%と140%)&lt;br/&gt;
+・PANICモジュールの基本持続時間を4分に短縮。スキルによって最大6分まで延長。(これまでの基本持続時間は5分)&lt;/p&gt;
+
+&lt;p&gt;次の3つの変更は「エクスカベーター」採掘ドローンに影響します。私たちはエクスカベーターの基本採掘量を減らす一方、ドローン自体の体積を増やし、移動式貯蔵所に収まる数を少なくする予定です。ただし、ロークアルのドローン収容量は同じ割合で増加するので、こちらの搭載可能数は変わりません。&lt;/p&gt;
+
+&lt;p&gt;・「エクスカベーター」採掘ドローンの基本採掘量が800m3へ減少。(これまでは1,000m3)&lt;br/&gt;
+・「エクスカベーター」アイス採掘ドローンの基本サイクル時間が310秒に延長。(これまでは250秒)&lt;br/&gt;
+・エクスカベーターの体積が1,100m3に増加 (これまでは750m3)、ロークアルのドローン収容量が8,800m3に増加。(これまでは6,000m3)&lt;/p&gt;
+
+&lt;p&gt;また、より小型の採掘艦に乗るプレイヤーを応援するため、ロークアルが使用する採掘支援バーストの効果を増強します。&lt;/p&gt;
+
+&lt;p&gt;・インダストリアルコアの採掘支援バースト強化ボーナスを変更し、T1は30%、T2は36%へ増加。(これまでは25%と30%)&lt;/p&gt;
+
+&lt;p&gt;これらの変更がヌルセクの採掘事情にどう影響するのか、採掘艦の利用状況がどう変わるのかを注意深く見守ります。もし必要であれば、ロークアルの性能をさらに強化、あるいは弱体化し、EVE経済の健全性を促進するつもりです。&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="春のバランス調整がやってくる！-12" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/2021-12.png" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;◆夏にむけたバランス調整計画&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;4月以降も色々なことが予定されています。5月リリースは既存コンテンツのバランス調整ではなく、新型艦と新型モジュールを実装します。少なくとも1種類の新型艦と複数の新しいおもちゃが登場するので、どうぞご期待ください。詳細は近日中に発表します！&lt;/p&gt;
+
+&lt;p&gt;7月には皆さん待望のインプラントセットが実装されます。さらに、後回しにされてきたTier再編も再開される予定です。&lt;/p&gt;
+
+&lt;p&gt;もちろん、主力艦その他のバランス調整計画はこれで全てではありませんが、ここまで発表してきた内容について皆さんがどう思うか、他にどんな変更が必要だと感じるか、ぜひフィードバックをお寄せください。この開発者ブログの総合感想スレッド、もしくはお好きなソーシャルメディア等からコメントをお願いします。&lt;/p&gt;
+
+&lt;p&gt;ここまでお読みいただきありがとうございました。良き宇宙の旅をお楽しみください。&lt;/p&gt;
+
+&lt;p&gt;o7&lt;/p&gt;
+
+&lt;p&gt;…おっと、最後に一つ。私たちは最近の流行にあわせて、マーケティング素材やロア、NPEの更新も検討しています。&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="春のバランス調整がやってくる！-13" class="alignnone" height="528" src="https://evekatsu.github.io/parrot-archives/images/2021-13.png" width="580"/&gt;&lt;/p&gt;</content><category term="Devブログ"></category><category term="プレスリリース"></category><category term="翻訳記事"></category></entry><entry><title>新技術デモ、EVE: Aether Warsのご紹介</title><link href="https://evekatsu.github.io/parrot-archives/2008.html" rel="alternate"></link><published>2019-03-07T00:00:00+09:00</published><updated>2019-03-07T00:00:00+09:00</updated><author><name>Parrot</name></author><id>tag:evekatsu.github.io,2019-03-07:/parrot-archives/2008.html</id><summary type="html">&lt;p class="lead"&gt;&lt;strong&gt;&lt;a href="https://www.eveonline.com/article/pny7eb/introducing-a-new-tech-demo-eve-aether-wars"&gt;新技術デモ、EVE: Aether Warsのご紹介&lt;/a&gt;&lt;/strong&gt;&lt;br/&gt;
+&lt;em&gt;2019-03-06 – By CCP Hellmar&lt;/em&gt;&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="新技術デモ、EVE: Aether Warsのご紹介-1" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/2008-1.jpg" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;この開発者ブログについて議論したい方は、公式フォーラムの&lt;a href="https://forums.eveonline.com/t/devblog-introducing-a-new-tech-demo-eve-aether-wars/144320"&gt;総合感想スレッド&lt;/a&gt;をお気軽にご利用ください。&lt;/p&gt;
+
+&lt;p&gt;カプセラ諸君、ご機嫌よう！&lt;/p&gt;
+
+&lt;p&gt;私にとって久しぶりの開発者ブログですが、今回はCCPとパートナー企業の合同プロジェクトについてお話ししたいと思います。このプロジェクトがうまくいけば、EVEは技術的な革命を迎えるかもしれません。&lt;/p&gt;
+
+&lt;p&gt;プロジェクトは1年間かけてゆっくり準備され、ここ数週間で一般公開できる段階に至りました。この技術デモは「EVE: Aether Wars」と呼ばれており、宇宙船を動かす技術的基盤を根本から劇的に改善することを目的としています。&lt;/p&gt;
+
+&lt;p&gt;プロジェクトの第1段階と今後の展開を見据えて、私たちはイギリスを拠点とするハイテク企業「&lt;a href="https://www.hadean.com/"&gt;Hadean&lt;/a&gt;」と提携しました。Hadeanは次世代オペレーティングシステム分野において最先端に位置する企業です。彼らが開発するシステムは全面的にクラウドベースで、今までにないスケーラビリティの可能性を秘めています。Hadeanと、そのクラウド型オペレーティングシステムの野心的なビジョンに興味のある方は、&lt;a href="https://www.aetherengine.io/"&gt;こちら&lt;/a&gt;のWebサイトをご覧ください。&lt;/p&gt;
+
+&lt;p&gt;EVEのパフォーマンスを革新する画期的プロジェクトを進めると同時に、目の前の現実もしっかり直視しなければなりません。私たちはEVEの技術的基盤を改善する短中期的プロジェクトも計画していますので、どうぞご安心ください。先週公開されたばかりの64bit版クライアントに関する開発者ブログは&lt;a href="https://www.eveonline.com/article/pnn778/eve-64-bit-and-directx-12"&gt;こちら&lt;/a&gt;からお読みいただけます。&lt;/p&gt;
+
+&lt;p&gt;また、CSMとの生産的な話し合いを受けて、私たちは主力艦(その他全般)のバランス調整、富の分配 …&lt;/p&gt;</summary><content type="html">&lt;p class="lead"&gt;&lt;strong&gt;&lt;a href="https://www.eveonline.com/article/pny7eb/introducing-a-new-tech-demo-eve-aether-wars"&gt;新技術デモ、EVE: Aether Warsのご紹介&lt;/a&gt;&lt;/strong&gt;&lt;br/&gt;
+&lt;em&gt;2019-03-06 – By CCP Hellmar&lt;/em&gt;&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="新技術デモ、EVE: Aether Warsのご紹介-1" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/2008-1.jpg" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;この開発者ブログについて議論したい方は、公式フォーラムの&lt;a href="https://forums.eveonline.com/t/devblog-introducing-a-new-tech-demo-eve-aether-wars/144320"&gt;総合感想スレッド&lt;/a&gt;をお気軽にご利用ください。&lt;/p&gt;
+
+&lt;p&gt;カプセラ諸君、ご機嫌よう！&lt;/p&gt;
+
+&lt;p&gt;私にとって久しぶりの開発者ブログですが、今回はCCPとパートナー企業の合同プロジェクトについてお話ししたいと思います。このプロジェクトがうまくいけば、EVEは技術的な革命を迎えるかもしれません。&lt;/p&gt;
+
+&lt;p&gt;プロジェクトは1年間かけてゆっくり準備され、ここ数週間で一般公開できる段階に至りました。この技術デモは「EVE: Aether Wars」と呼ばれており、宇宙船を動かす技術的基盤を根本から劇的に改善することを目的としています。&lt;/p&gt;
+
+&lt;p&gt;プロジェクトの第1段階と今後の展開を見据えて、私たちはイギリスを拠点とするハイテク企業「&lt;a href="https://www.hadean.com/"&gt;Hadean&lt;/a&gt;」と提携しました。Hadeanは次世代オペレーティングシステム分野において最先端に位置する企業です。彼らが開発するシステムは全面的にクラウドベースで、今までにないスケーラビリティの可能性を秘めています。Hadeanと、そのクラウド型オペレーティングシステムの野心的なビジョンに興味のある方は、&lt;a href="https://www.aetherengine.io/"&gt;こちら&lt;/a&gt;のWebサイトをご覧ください。&lt;/p&gt;
+
+&lt;p&gt;EVEのパフォーマンスを革新する画期的プロジェクトを進めると同時に、目の前の現実もしっかり直視しなければなりません。私たちはEVEの技術的基盤を改善する短中期的プロジェクトも計画していますので、どうぞご安心ください。先週公開されたばかりの64bit版クライアントに関する開発者ブログは&lt;a href="https://www.eveonline.com/article/pnn778/eve-64-bit-and-directx-12"&gt;こちら&lt;/a&gt;からお読みいただけます。&lt;/p&gt;
+
+&lt;p&gt;また、CSMとの生産的な話し合いを受けて、私たちは主力艦(その他全般)のバランス調整、富の分配、戦争システム、isk産出源の多さなど、コミュニティが懸念している問題にも対処する計画を進めています。もちろん、BOTやRMTに対しても終わりなき戦いを続けており、より深いレベルでBOTに対応するための社内タスクフォースを編成中です。&lt;/p&gt;
+
+&lt;p&gt;短中期的プロジェクトに関するその他の情報は、数週間から数ヶ月かけて告知していきます。詳細は開発者ブログやEVEインベージョンワールドツアーでお話ししますので、ご期待ください。&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="新技術デモ、EVE: Aether Warsのご紹介-2" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/2008-2.jpg" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;Hadeanとのパートナーシップは、より壮大な抜本的変化を実現することを目指し、現在は最新技術の研究開発に取り組んでいる状態です。まったくの初期段階ですから、様々な試みがうまくいくと仮定しても、現時点で具体的なスケジュールを設定することはできません。しかし、EVEを永く続くものにするプロセスにとって、このようなプロジェクトは極めて大きな意味を持つと確信しています。&lt;/p&gt;
+
+&lt;p&gt;私は昨年、皆さんがギネス世界記録を樹立するのを目の当たりにしながら、喜びと苦しみを抱えていました。Twitchの配信を見ていると、あれほどの戦いを実現したソーシャルエンジニアリングスキルに畏敬の念を抱かずにはいられませんでした。皆さんはそうしたスキルを磨くために長い時間をかけてきましたが、あの戦いの瞬間こそ、EVEコミュニティの創造性と団結力を真に証明していたと思います。しかし一方では、2002年(私がCCPの最高技術責任者だった頃)に導入した技術は限界なのだと結論づけた出来事でもありました。&lt;/p&gt;
+
+&lt;p&gt;私たちは皆さんに追いつくために多くのことをしてきましたし、まだ創意工夫の余地はあるかもしれません。とはいえ、10,000人以上の艦隊戦を実現したいと望むなら、現行サーバーを動かしているハムスター達には無理な相談です。私たちはEVEの基本フレームワーク(Stackless Python)外で稼働する小機能を、過去数年間でいくつか開発してきました。それでも、EVEの中枢機能はスーパーコンピューターのフルメッシュ状ノードで稼働しており、各ノードはモノリシックなシングルスレッドアプリケーションです。&lt;/p&gt;
+
+&lt;p&gt;9-4RP2戦の直後、私はHadeanのクレイグ(Craig Beddis)とラシッド(Rashid Mansoor)に出会いました。過去にも最先端技術で大規模仮想空間の基礎を築こうとする人々はいましたが、実際に私が求める条件をクリアする人はいませんでした。しかし、彼らはそれをやってのけたのです。1年間を&lt;a href="https://www.hadean.com/blog/ccp-visit-hadean"&gt;アドバイスや知識共有&lt;/a&gt;に費やし、私たちは技術的状況を確かめるための公開テストに臨むことにしました。&lt;/p&gt;
+
+&lt;p&gt;私はこれから続く長い道のりを皆さんと歩んでいきたいと考えています。そこで、手始めにEVE: Aether Warsの技術テストにご招待いたします。この記念碑的ミッションを遂行するうえで、EVEコミュニティほど適任なゲーミングコミュニティは存在しません。皆さんはいつも未知の領域への先駆けとなり、私たちが与えたあらゆる試練を喜々として打ち破ってくれますから！&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;◆EVE: Aether Warsの公開テスト&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;HadeanのAether Engineで10,000人が戦えるかどうか、今月のGDC2019で技術テストを行います。参加を希望される方は、&lt;a href="https://www.aetherengine.io/pvp-10k"&gt;aetherengine.io/pvp-10k&lt;/a&gt;へアクセスして各種情報を入力してください。&lt;/p&gt;
+
+&lt;p&gt;注意していただきたいのは、皆さんがテストするのはゲームではなく、ゲームのプロトタイプですらないという点です。テストに使用されるのは、EVEのグラフィック素材を使い、相互作用性を多少加えた程度の、ほとんど純粋なAether Engineです。EVE OnlineやEVE: Valkyrieのようなものを想像しないでください。CCPがAether Engine用のグラフィック素材を提供することで、Hadeanは大規模オンラインマルチプレイヤー環境の課題に集中できると考えてください。皆さんに参加していただければ、テストは滅茶苦茶になるでしょう。是非そうしてください。研究開発の本質は、破壊と創造なのですから。&lt;/p&gt;
+
+&lt;p&gt;こんな風に想像してください。皆さんが乗りこむのは宇宙船、Aether Engineは宇宙に浮かぶ粒子加速器です。皆さんが力を合わせて粒子加速器を破壊すると、何十億もの破片が飛び散るでしょう。私たちはその破片から、EVEの新たな未来へ至るための道筋を見つけだし、皆さんと一緒に歩き始めます。&lt;/p&gt;
+
+&lt;p&gt;EVE Onlineはプレイヤーの野望と能力に見合ったゲームになるため、長く波乱に富んだ旅路を歩んできました。私たちはこれからも戦い続けますが、EVEコミュニティの創造性、不屈の精神、ニューエデンへの愛には決して勝てないでしょう。&lt;/p&gt;
+
+&lt;p&gt;テストの詳細については間もなくお知らせしますので、しばらくお待ちください！&lt;/p&gt;
+
+&lt;p&gt;私たちと一緒に小さな一歩を踏み出し、やがてEVEを大きく飛躍させましょう！&lt;/p&gt;
+
+&lt;p&gt;CCP Hellmar&lt;/p&gt;</content><category term="Devブログ"></category><category term="プレスリリース"></category><category term="翻訳記事"></category></entry><entry><title>戦争…戦争は変わらない(わけでもない)</title><link href="https://evekatsu.github.io/parrot-archives/1990.html" rel="alternate"></link><published>2019-03-03T00:00:00+09:00</published><updated>2019-03-03T00:00:00+09:00</updated><author><name>Parrot</name></author><id>tag:evekatsu.github.io,2019-03-03:/parrot-archives/1990.html</id><summary type="html">&lt;p class="lead"&gt;&lt;strong&gt;&lt;a href="https://www.eveonline.com/article/pnlesq/war-war-sometimes-changes"&gt;戦争…戦争は変わらない(わけでもない)&lt;/a&gt;&lt;/strong&gt;&lt;br/&gt;
+&lt;em&gt;2019-02-27 – By The EVE Dev Team&lt;/em&gt;&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="戦争…戦争は変わらない(わけでもない)-1" class="alignnone" height="387" src="https://evekatsu.github.io/parrot-archives/images/1990-1.jpg" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;この開発者ブログについて議論したい方は、公式フォーラムの&lt;a href="https://forums.eveonline.com/t/devblog-war-war-sometimes-changes/142879"&gt;総合感想スレッド&lt;/a&gt;をお気軽にご利用ください。&lt;/p&gt;
+
+&lt;p&gt;戦争好きなカプセラ諸君、ご機嫌よう！&lt;/p&gt;
+
+&lt;p&gt;今回の開発者ブログは、現在進行中の戦争システム改修プロジェクトについてお話しします。&lt;/p&gt;
+
+&lt;p&gt;もしあなたが過去数ヶ月の開発情報を追っていれば、開発チームが戦争システムの大改修に取り組んでいるのもご存知でしょう。プロジェクトはコーポレーション、アライアンス間の紛争がより楽しくなるよう改善し、「実行可能な選択肢がない」「プレイヤーコーポレーションへの参加を避ける」等の不愉快な状況を減らすことを目的としています。&lt;/p&gt;
+
+&lt;p&gt;私たちは2018年12月リリースで最初の変更内容を実装すると、プレイヤーの反応を調べ、次の変更内容を評価し、初期計画についてCSMと話し合ってきました。今春のプロジェクトについてコミュニティのフィードバックを受けとる準備も整いましたので、詳しい計画を公開したいと思います。&lt;/p&gt;
+
+&lt;p&gt;この計画は12月リリースで実装された内容に基づいており、3月、4月、5月のパッチで実装される予定です。&lt;/p&gt;
+
+&lt;p&gt;現在のスケジュールは次のとおり。&lt;/p&gt;
+
+&lt;p&gt;2018年12月&lt;br/&gt;
+・戦争適格性(実装済み)&lt;/p&gt;
+
+&lt;p&gt;2019年3月&lt;br/&gt;
+・戦争システムの抜け穴とバグ修正&lt;/p&gt;
+
+&lt;p&gt;2019年4月&lt;br/&gt;
+・中立的支援の排除&lt;/p&gt;
+
+&lt;p&gt;2019年5月&lt;br/&gt;
+・戦争司令部&lt;br/&gt;
+・戦争手数料の単純化&lt;br/&gt;
+・相互戦争の改善&lt;br/&gt;
+・戦争システムUIの改善&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;12月リリースで実装された変更内容は、NPCコーポレーションに留まらなくても戦争システムに対処できるよう、プレイヤーの選択肢を広げることが目的でした …&lt;/p&gt;</summary><content type="html">&lt;p class="lead"&gt;&lt;strong&gt;&lt;a href="https://www.eveonline.com/article/pnlesq/war-war-sometimes-changes"&gt;戦争…戦争は変わらない(わけでもない)&lt;/a&gt;&lt;/strong&gt;&lt;br/&gt;
+&lt;em&gt;2019-02-27 – By The EVE Dev Team&lt;/em&gt;&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="戦争…戦争は変わらない(わけでもない)-1" class="alignnone" height="387" src="https://evekatsu.github.io/parrot-archives/images/1990-1.jpg" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;この開発者ブログについて議論したい方は、公式フォーラムの&lt;a href="https://forums.eveonline.com/t/devblog-war-war-sometimes-changes/142879"&gt;総合感想スレッド&lt;/a&gt;をお気軽にご利用ください。&lt;/p&gt;
+
+&lt;p&gt;戦争好きなカプセラ諸君、ご機嫌よう！&lt;/p&gt;
+
+&lt;p&gt;今回の開発者ブログは、現在進行中の戦争システム改修プロジェクトについてお話しします。&lt;/p&gt;
+
+&lt;p&gt;もしあなたが過去数ヶ月の開発情報を追っていれば、開発チームが戦争システムの大改修に取り組んでいるのもご存知でしょう。プロジェクトはコーポレーション、アライアンス間の紛争がより楽しくなるよう改善し、「実行可能な選択肢がない」「プレイヤーコーポレーションへの参加を避ける」等の不愉快な状況を減らすことを目的としています。&lt;/p&gt;
+
+&lt;p&gt;私たちは2018年12月リリースで最初の変更内容を実装すると、プレイヤーの反応を調べ、次の変更内容を評価し、初期計画についてCSMと話し合ってきました。今春のプロジェクトについてコミュニティのフィードバックを受けとる準備も整いましたので、詳しい計画を公開したいと思います。&lt;/p&gt;
+
+&lt;p&gt;この計画は12月リリースで実装された内容に基づいており、3月、4月、5月のパッチで実装される予定です。&lt;/p&gt;
+
+&lt;p&gt;現在のスケジュールは次のとおり。&lt;/p&gt;
+
+&lt;p&gt;2018年12月&lt;br/&gt;
+・戦争適格性(実装済み)&lt;/p&gt;
+
+&lt;p&gt;2019年3月&lt;br/&gt;
+・戦争システムの抜け穴とバグ修正&lt;/p&gt;
+
+&lt;p&gt;2019年4月&lt;br/&gt;
+・中立的支援の排除&lt;/p&gt;
+
+&lt;p&gt;2019年5月&lt;br/&gt;
+・戦争司令部&lt;br/&gt;
+・戦争手数料の単純化&lt;br/&gt;
+・相互戦争の改善&lt;br/&gt;
+・戦争システムUIの改善&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;12月リリースで実装された変更内容は、NPCコーポレーションに留まらなくても戦争システムに対処できるよう、プレイヤーの選択肢を広げることが目的でした。12月以降、宇宙空間に1つでもストラクチャを所有しているコーポレーション、アライアンスは戦争適格だと見なされ、攻撃者あるいは防衛者として戦争システムの適用対象になりました。この変更内容の詳細は12月6日に公開された&lt;a href="https://www.eveonline.com/article/pjblu1/war-declaration-changes-the-war-adjacent-to-christmas"&gt;開発者ブログ&lt;/a&gt;から確認できます。&lt;/p&gt;
+
+&lt;p&gt;12月リリースが実装されて以来、私たちは戦争適格性がゲームにどんな影響を与えたか、コミュニティがどのように経験しているかを注意深く観察してきました。コミュニティからのフィードバックはまずまず肯定的で、多くのプレイヤーが今後の戦争システム改修プロジェクトに期待してくれました。統計的な面で言えば、過剰な期待はできないものの、多少は楽観視してよい証拠が得られたと考えています。いくつかの領域では結論を出す前にもっと多くのデータが必要ですが、明確な影響が見られる領域も複数あります。&lt;/p&gt;
+
+&lt;p&gt;従来の戦争システムについて攻撃者と防衛者の両方が不満に思っていたのは、ほとんどの戦争で戦闘が起きないことでした。どちらか一方、あるいは両方がステーションに引きこもる戦争ではなく、できるだけ多くのPvPを生む戦争を実現したいと思います。&lt;/p&gt;
+
+&lt;p&gt;この分野ではまだまだ改善の余地がありますが、戦争当事者は脆弱状態のストラクチャを持たなければならないという条件設定により、明らかな改善が見られたのは確かです。非相互戦争において、戦争期間中に少なくとも1つのPvPキルが発生する割合は大幅に増加しました。&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="戦争…戦争は変わらない(わけでもない)-2" class="alignnone" height="420" src="https://evekatsu.github.io/parrot-archives/images/1990-2.png" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;あらゆる戦争を対象にしたPvPキル総数も増加しましたが、ペリメーター星系の貿易拠点をめぐる戦いに強く影響されているため、12月リリースの影響を考察するうえで信頼できる指標とは言えません。&lt;/p&gt;
+
+&lt;p&gt;私たちは新規プレイヤーがコーポレーションやアライアンスに参加するのを妨げる要素も取り除きたいと考えています。プレイヤーが興味を持っていないなら強制はしませんが、自分自身のEVEプレイヤーとしての経験から、良い仲間を得ることでどれほどゲームが楽しくなるかは知っています。&lt;/p&gt;
+
+&lt;p&gt;コーポレーションに参加しようとした新規プレイヤーが、ゲームのある要素によって参加を妨げられるなら、私たちはそれを機会の損失、解決されるべき問題だと解釈します。こうした前提をもとに言えば、プレイ開始後3日以内にコーポレーションに参加した新規プレイヤー(altアカウントではない)の割合が増加したことは、良い兆候だと思います。&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="戦争…戦争は変わらない(わけでもない)-3" class="alignnone" height="420" src="https://evekatsu.github.io/parrot-archives/images/1990-3.png" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;12月リリースはプロジェクトの始まりに過ぎませんでしたが、正しい方向に一歩前進したと信じています。今春の計画は、この12月リリースの成果を基礎として構築されました。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;3月リリースでは優先順位の高い不具合を修正します。プレイヤーが戦争システムから一時的に逃れることを可能にする、意図されていない抜け穴もふさぐつもりです。この抜け穴は今まさにハイセクで行われている戦争を混乱させているため、なるべくタイムリーに対処したいと思います。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;~~「ヘッドフェイク」の修正~~&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;抜け穴の一つに、私たちが「ヘッドフェイク」と呼んでいるものがあります。この状況を実現する方法はいくつかありますが、コーポレーションが終了間際の戦争に参加し、新たな戦争の警告期間を利用することで、ストラクチャ建設時のリスクを軽減するというものです。&lt;/p&gt;
+
+&lt;p&gt;実際の展開は次のとおりです。&lt;/p&gt;
+
+&lt;p&gt;・A社は意図的にB社との戦争に参加します。戦争は何らかの原因で戦争継続条件が不足しており、24時間の終戦カウントダウンが始まっています。&lt;br/&gt;
+・A社は終戦カウントダウン中に、ハイセクにアップウェルストラクチャを設置します。終戦カウントダウン中でもストラクチャは攻撃できますが、設置直後の脆弱時間は15分間です。A社はB社がこの時間内にストラクチャを発見できない可能性に賭けます。&lt;br/&gt;
+・戦争が終わると、B社がA社に対して宣戦布告します。&lt;br/&gt;
+・この新しい戦争が始まるまで24時間かかり、その間は攻撃できません。つまり、B社は係留完了後に脆弱状態へ移行したA社ストラクチャを攻撃できません。&lt;br/&gt;
+・こうして、A社は戦争システムの抜け穴を使い、新しいストラクチャを完全に機能させる時間を稼ぐことができました。&lt;/p&gt;
+
+&lt;p&gt;この抜け穴をふさぐため、私たちは終戦カウントダウンに変更を加えます。&lt;/p&gt;
+
+&lt;p&gt;3月リリースが実装されると、戦争当事者は終戦カウントダウン中に新たな戦争を宣言できるようになります。この戦争には通常と同じ手数料がかかり、戦争適格性も適用されますが、警告期間なしに始まり、ただちに戦闘が解禁されます。&lt;/p&gt;
+
+&lt;p&gt;攻撃者と防衛者は既に戦争状態にあり、もともと戦闘可能な環境だったのですから、24時間の警告期間は不要というわけです。&lt;/p&gt;
+
+&lt;p&gt;先ほど説明したような展開が3月リリース後に発生した場合、B社はダウンタイム中に新たな戦争(アップウェルストラクチャを設置した時点でA社は戦争適格)を宣言すれば、A社のストラクチャが脆弱状態へ移り次第、すぐに攻撃することができます。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;~~「戦争逆転現象」の修正~~&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;もう一つの戦争システムの抜け穴を、私たちは「戦争逆転現象」と呼んでいます。コーポレーションが特定状況下でアライアンスへ参加・脱退することにより、戦争における攻守の立場が逆転してしまう不具合です。&lt;/p&gt;
+
+&lt;p&gt;実際の展開は次のとおりです。&lt;/p&gt;
+
+&lt;p&gt;・A社がB社から宣戦布告されます。&lt;br/&gt;
+・CアライアンスがB社に対して宣戦布告します。&lt;br/&gt;
+・A社がCアライアンスに参加します。&lt;br/&gt;
+・A社とB社の戦争(B社が攻撃者)は終了し、A社は新たな戦争(Cアライアンスが攻撃者)に参加しています。&lt;br/&gt;
+・A社がCアライアンスを脱退すると、A社を攻撃者、B社を防御者とする別の戦争が始まります。&lt;br/&gt;
+・&lt;a href="https://youtu.be/9x2yXKckfuA?t=35"&gt;要するに…&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;この抜け穴をふさぐため、戦争で防御者となっているコーポレーション(A社)が、そのコーポレーションの戦争相手(B社)に対して攻撃者となっているアライアンス(Cアライアンス)に参加することを制限します。&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;~~「戦争免除バグ」の修正~~&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;3月リリースでは、コーポレーションがダウンタイムまで宣戦布告を免除されてしまう、より曖昧でイレギュラーなバグも修正します。このバグはランダムなサーバーノード割り当てにおける特定の設定で引き起こされるため、再現したり悪用したりするのは容易ではありません。しかし、プレイヤーが忘れかけた頃に発生するうえ、先ほど紹介した2つの不具合と混同される可能性もある、ややこしい不具合です。&lt;/p&gt;
+
+&lt;p&gt;これら3つの修正内容はすでに&lt;a href="https://community.eveonline.com/support/test-servers/singularity/"&gt;Singularity&lt;/a&gt;サーバーに実装されており、数週間後の3月リリースでTranquilityサーバーにも実装される予定です。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;3月リリースで優先順位の高い不具合に対処したあと、4月リリースではハイセクの「中立的支援」に変更を加えます。&lt;/p&gt;
+
+&lt;p&gt;現在のシステムでは、中立キャラクターがリモート支援モジュール(リモートリペアラなど)を使用した場合、ターゲットが次の条件を満たしていれば容疑者フラグが付与されます。&lt;/p&gt;
+
+&lt;p&gt;・戦争に参加している(通常戦争かFW)&lt;br/&gt;
+・支援者と同じコーポ－レーション、アライアンスに所属していない(FWであれば同じ陣営に所属していない)&lt;br/&gt;
+・PvPに参加している(カプセラログオフタイマーが発生している)&lt;/p&gt;
+
+&lt;p&gt;また、コマンドバーストモジュールはフリートメンバーが戦争状態にあるかどうか関係なく、効果範囲内のフリートメンバー全員に適用されます。&lt;/p&gt;
+
+&lt;p&gt;中立キャラクターがモジュールを起動すれば、戦争当事者は中立支援艦とも交戦できます。しかし、CONCORDの処分を待たなければならないのは苛立たしく、あまり楽しいゲームプレイだとは言えません。&lt;/p&gt;
+
+&lt;p&gt;この問題についてコミュニティからのフィードバックを確認したところ、中立的支援を排除する直接的な措置を期待する声が多く聞かれました。&lt;/p&gt;
+
+&lt;p&gt;4月リリース以降、ハイセクで中立的支援を実行し、先に述べた処分条件を満たす場合、CONCORDからは犯罪者フラグが付与されます。セーフティシステムはリモート支援モジュールにも適用されるので、支援役パイロットは緑色あるいは黄色に設定し、意図せぬ&lt;a href="https://www.youtube.com/watch?v=SiE8_pz013g"&gt;CONCORD死&lt;/a&gt;を防ぐことをお勧めします。&lt;/p&gt;
+
+&lt;p&gt;コマンドバーストについては、戦争に関わっていないフリートメンバーを支援する可能性もあるため、少し違った措置をとります。4月リリース後にハイセクでコマンドバーストモジュールを起動した場合、処分条件を満たすキャラクターには効果を及ぼしません。&lt;/p&gt;
+
+&lt;p&gt;中立キャラクターに対するペナルティ増加は限定交戦(決闘など)にも適用されますが、パフォーマンス的な理由により、コマンドバーストが限定交戦状態のキャラクターに適用されるのを防ぐことはできません。&lt;/p&gt;
+
+&lt;p&gt;これらの変更はコーポレーションメンバーやアライアンスメンバーのリモート支援行為には影響しません(同じ戦争に参加しているはずですから)。また、ローセクで中立的支援が行われた場合、現在と同じ容疑者フラグで処分されます。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;最も重要かつ広範な変更は5月リリースで予定されています。5月リリースは防御者により明確で具体的な目標を提供すると同時に、戦争システムのあらゆる面における明快さ、分かりやすさ、ユーザーエクスペリエンスを改善することを目指します。&lt;/p&gt;
+
+&lt;p&gt;・戦争司令部&lt;/p&gt;
+
+&lt;p&gt;5月リリース以降、コーポレーションやアライアンスが非相互戦争を宣言する場合、彼らはハイセクに設置したアップウェルストラクチャを選択しなければなりません。選べるのは港湾機能を持つストラクチャのみで、FLEXストラクチャは対象外です。&lt;/p&gt;
+
+&lt;p&gt;このストラクチャは「戦争司令部」に指定されます。戦争司令部が何らかの理由(係留解除や破壊など)で宇宙空間から消えた場合、戦争は継続条件を満たさなくなり、攻撃者か防御者が戦争不適格になった場合、攻撃者が手数料を支払わなかった場合と同じように終戦カウントダウンへ移行します。戦争司令部を所有しているコーポレーションがアライアンスから脱退した場合、コーポレーションの戦争は続きますが、アライアンスの戦争は終戦カウントダウンへ移行します。&lt;/p&gt;
+
+&lt;p&gt;戦争司令部の消滅によって戦争が終わった場合、攻撃者は2週間は防御者に対して新しい戦争を宣言できません。この強制的な平和は降伏による終戦の結果と似ていますが、防御者から攻撃者への宣戦布告を妨げないという大きな違いがあります。&lt;/p&gt;
+
+&lt;p&gt;複数の戦争を抱えるコーポレーションやアライアンスは、戦争司令部を異なるストラクチャに分散させるか、あるいは特定のストラクチャに集約するかを選べます。宣戦布告後に戦争司令部を変更することはできません。また、戦争司令部は攻撃者には必要ですが、同盟軍や防御者は必要としません。念のためお伝えしておきますが、防御者は戦争司令部が不要なだけであって、戦争適格性を満たすためのストラクチャは必要です。&lt;/p&gt;
+
+&lt;p&gt;戦争司令部の情報は戦争レポートで一般公開されるほか、防御者には宣戦布告通知でも伝達されます。&lt;/p&gt;
+
+&lt;p&gt;この変更の主な目的は、防御者に明確な目標を提供することです。防御者は戦争司令部を攻撃するか、あるいは戦争司令部の攻略を傭兵に依頼するか、戦争司令部を破壊するために防御者同士で結束するか、目標を達するために色々な手段を選べるでしょう。&lt;/p&gt;
+
+&lt;p&gt;攻撃者にとっては、戦争司令部はPvPにつながる要素です。戦争司令部が防衛者の攻撃目標になる可能性は大きく、攻撃者は適切な防衛計画を立てることができます。12月リリースや他の春季リリースを下準備として5月リリースが実装され、戦争が「避けるべき厄介事」から「真の戦い」へ変化するよう願っています。&lt;/p&gt;
+
+&lt;p&gt;5月リリース以前から続いている戦争は、定められた猶予期間のあいだ、戦争司令部なしで継続されます。猶予期間を過ぎても終戦を迎えていなければ、その戦争は無効となり、新しいルールのもとで宣戦布告しなおさなければなりません。猶予期間の長さはまだ決まっていませんが、決まり次第お知らせします。&lt;/p&gt;
+
+&lt;p&gt;・戦争手数料の単純化&lt;/p&gt;
+
+&lt;p&gt;不必要な複雑さを取り除く継続的改善の一環として、非相互戦争の1週間ごとの手数料を単純化します。現在の計算式は次のとおりです。&lt;/p&gt;
+
+&lt;p&gt;1週間ごとの手数料 = (log N / log 1.675)^2 300000 N^0.26815&lt;/p&gt;
+
+&lt;p&gt;変数Nには防衛側コーポレーション、アライアンスのメンバー数が入力され、最低費用は50Misk/週、最高費用は500Misk/週です。&lt;/p&gt;
+
+&lt;p&gt;5月リリース後は次のようになります。&lt;/p&gt;
+
+&lt;p&gt;1週間ごとの手数料 = 100Misk&lt;/p&gt;
+
+&lt;p&gt;頭の中で計算するのがずっと簡単になりましたね。ちなみに、この数字はいい加減に決めたわけではありません。過去数ヶ月の戦争の平均手数料にかなり近い数字です。&lt;/p&gt;
+
+&lt;p&gt;手数料の計算が簡単になるだけでなく、大規模組織へ戦争を仕掛ける動機もわずかに強まるのではないかと思います。他の変更内容と組み合わさり、ニューエデンの戦争により多くのPvPと破壊がもたらされることを期待します。&lt;/p&gt;
+
+&lt;p&gt;・相互戦争の改善&lt;/p&gt;
+
+&lt;p&gt;相互戦争の始め方と管理方法も改善する予定です。現仕様で相互戦争を始めようとすると、まず攻撃者が一方的に宣戦布告し、防御者が相互戦争へ移行させる必要があります。相互戦争になれば問題ではありませんが、最初は戦争適格性や手数料について気にしなければなりません。私たちは相互戦争を円滑で理解しやすいものに作りかえるため、独自のUIを用意し、開戦と終戦には特殊なプロセスを用いようと考えています。&lt;/p&gt;
+
+&lt;p&gt;5月リリース以降、相互戦争は招待と受諾を通して始まります。コーポレーションやアライアンスの参加申請に似た感じです。コーポレーション、アライアンスは他のコーポレーション、アライアンスに対して相互戦争の招待状を送ることができ、送られた相手は招待を受諾するか拒否するかを選択できます。相互戦争は手数料、戦争適格性、戦争司令部のいずれも必要としません。&lt;/p&gt;
+
+&lt;p&gt;相互戦争当事者は自由に戦争から離脱でき、通常と同じく24時間の終戦カウントダウンが発動します。戦争内で90日間にわたりPvPキルが発生しなかった場合も、相互戦争は自動的に終了します。&lt;/p&gt;
+
+&lt;p&gt;・戦争システムUIの改善&lt;/p&gt;
+
+&lt;p&gt;5月リリースでは戦争システムUIも改善するつもりです。まだ初期段階なので画像がありませんが、最新情報は随時お知らせします。&lt;/p&gt;
+
+&lt;p&gt;現時点では、コーポレーションウィンドウの戦争タブに関するユーザーエクスペリエンス改善、宣戦布告時のユーザーフロー改善、戦争レポートUIの再設計などを検討中です。通知を受け取ったことを忘れてしまうプレイヤーのために、警告用UIも作ったほうがいいでしょうか。&lt;/p&gt;
+
+&lt;p&gt;戦争システムUIを更新してからかなりの時間が経ったので、今後数ヶ月をかけて大幅な改善を加えていければと思います。&lt;/p&gt;
+
+&lt;p&gt;戦争システムをできるだけ良いものにするため、4月リリースと5月リリースにはその他のバグ修正や微調整も含まれます。戦争システム関連のバグレポートを送信してくださったプレイヤーに深く感謝します。様々な問題を突き止めて解決するうえで、皆さんのバグレポートは非常に貴重な情報源でした。今後も5月リリースを実装するまで、私たちは戦争システム関連のバグレポートに特に注意を払います。&lt;/p&gt;
+
+&lt;p&gt;この開発者ブログの&lt;a href="https://forums.eveonline.com/t/devblog-war-war-sometimes-changes/142879"&gt;総合感想スレッド&lt;/a&gt;で、皆さんからのフィードバックをお待ちしています。12月リリースでの変化をどう感じているか、この春の戦争システム改修プロジェクトをどう思うか、ご意見、ご感想をお聞かせください！&lt;/p&gt;
+
+&lt;p&gt;公式フォーラム、ソーシャルメディア、CSMメンバー、ワールドツアーなどを通じて、皆さんの意見を発信し続けてください。これまでのところ、コミュニティからのフィードバックはプロジェクトで大きな役割を果たしています。今後も間違いなくそうなるでしょう。&lt;/p&gt;
+
+&lt;p&gt;先ほど述べたように、3月リリースで予定されている不具合修正は&lt;a href="https://community.eveonline.com/support/test-servers/singularity/"&gt;Singularity&lt;/a&gt;サーバーに実装されています。修正箇所をテストしてみて、何か気付いたことがあれば教えてください。プロジェクトの最新情報は随時お知らせしますし、計画に変更があれば告知するようにします。&lt;/p&gt;
+
+&lt;p&gt;開発者ブログをお読みいただきありがとうございました。皆さんの幸運を祈ります！&lt;/p&gt;</content><category term="Devブログ"></category><category term="プレスリリース"></category><category term="翻訳記事"></category></entry><entry><title>64bit版クライアントとDirectX 12</title><link href="https://evekatsu.github.io/parrot-archives/1995.html" rel="alternate"></link><published>2019-03-03T00:00:00+09:00</published><updated>2019-03-03T00:00:00+09:00</updated><author><name>Parrot</name></author><id>tag:evekatsu.github.io,2019-03-03:/parrot-archives/1995.html</id><summary type="html">&lt;p class="lead"&gt;&lt;strong&gt;&lt;a href="https://www.eveonline.com/article/pnn778/eve-64-bit-and-directx-12"&gt;64bit版クライアントとDirectX 12&lt;/a&gt;&lt;/strong&gt;&lt;br/&gt;
+&lt;em&gt;2019-02-28 – By The EVE Dev Team&lt;/em&gt;&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="64bit版クライアントとDirectX 12-1" class="alignnone" height="363" src="https://evekatsu.github.io/parrot-archives/images/1995-1.jpg" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;この開発者ブログについて議論したい方は、公式フォーラムの&lt;a href="https://forums.eveonline.com/t/devblog-eve-64-bit-directx-12/143069"&gt;総合感想スレッド&lt;/a&gt;をお気軽にご利用ください。&lt;/p&gt;
+
+&lt;p&gt;EVEベガス2018で、私たちは&lt;a href="https://youtu.be/Au4rMBjVSZ0?t=689"&gt;64bit版クライアントへの移行作業&lt;/a&gt;が始まったと発表しました。このプロジェクトは順調に進んでおり、2019年第2四半期のリリースを目指しています。&lt;/p&gt;
+
+&lt;p&gt;プロジェクトの目的は2つあります。1つは定期的な技術的アップグレード。そしてもう1つは、MMOとして可能なかぎり最先端のグラフィックを追求し、ニューエデンの美しさを維持し続けること(あなたが超低画質な設定で遊んでいなければの話)。どちらもEVE Onlineの未来のための継続的な投資です。&lt;/p&gt;
+
+&lt;p&gt;現在、オーディオ&amp;amp;グラフィックチームは3月5日の公開テストにむけて着々と準備を進めています。当日はDualityサーバーに接続することで、初公開された64bit版クライアントを体験できます。&lt;/p&gt;
+
+&lt;p&gt;64bit版クライアントへの移行は、EVEの近代化改修とでも言うべき重大な出来事です。業界標準に追いつき、開発保守コストの合理化を勧めていくという意味でも、重要なマイルストーンです。&lt;/p&gt;
+
+&lt;p&gt;64bit版クライアントへの移行に伴い、私たちは32bit版クライアントのサポートを終了することにしました。32bit環境で遊んでいるプレイヤーは全体の約0.5%に過ぎず、32bitと64bitの両方をサポートするために開発時間を費やすのが妥当だとは思えません。&lt;/p&gt;
+
+&lt;p&gt;64bit版クライアント実装と同時に、EVEの最低動作環境を変更することも検討しています。64bitアプリケーションの性質として、以前より消費メモリが増加するため、必要メモリを2GBから4GBに増加させます。&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="64bit版クライアントとDirectX 12-2" class="alignnone" height="325" src="https://evekatsu.github.io/parrot-archives/images/1995-2.png" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;EVEは最も代表的かつ美しいSFMMOの一つです。その行く先を見据えて、私たちは将来の技術の基礎を築く必要があります …&lt;/p&gt;</summary><content type="html">&lt;p class="lead"&gt;&lt;strong&gt;&lt;a href="https://www.eveonline.com/article/pnn778/eve-64-bit-and-directx-12"&gt;64bit版クライアントとDirectX 12&lt;/a&gt;&lt;/strong&gt;&lt;br/&gt;
+&lt;em&gt;2019-02-28 – By The EVE Dev Team&lt;/em&gt;&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="64bit版クライアントとDirectX 12-1" class="alignnone" height="363" src="https://evekatsu.github.io/parrot-archives/images/1995-1.jpg" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;この開発者ブログについて議論したい方は、公式フォーラムの&lt;a href="https://forums.eveonline.com/t/devblog-eve-64-bit-directx-12/143069"&gt;総合感想スレッド&lt;/a&gt;をお気軽にご利用ください。&lt;/p&gt;
+
+&lt;p&gt;EVEベガス2018で、私たちは&lt;a href="https://youtu.be/Au4rMBjVSZ0?t=689"&gt;64bit版クライアントへの移行作業&lt;/a&gt;が始まったと発表しました。このプロジェクトは順調に進んでおり、2019年第2四半期のリリースを目指しています。&lt;/p&gt;
+
+&lt;p&gt;プロジェクトの目的は2つあります。1つは定期的な技術的アップグレード。そしてもう1つは、MMOとして可能なかぎり最先端のグラフィックを追求し、ニューエデンの美しさを維持し続けること(あなたが超低画質な設定で遊んでいなければの話)。どちらもEVE Onlineの未来のための継続的な投資です。&lt;/p&gt;
+
+&lt;p&gt;現在、オーディオ&amp;amp;グラフィックチームは3月5日の公開テストにむけて着々と準備を進めています。当日はDualityサーバーに接続することで、初公開された64bit版クライアントを体験できます。&lt;/p&gt;
+
+&lt;p&gt;64bit版クライアントへの移行は、EVEの近代化改修とでも言うべき重大な出来事です。業界標準に追いつき、開発保守コストの合理化を勧めていくという意味でも、重要なマイルストーンです。&lt;/p&gt;
+
+&lt;p&gt;64bit版クライアントへの移行に伴い、私たちは32bit版クライアントのサポートを終了することにしました。32bit環境で遊んでいるプレイヤーは全体の約0.5%に過ぎず、32bitと64bitの両方をサポートするために開発時間を費やすのが妥当だとは思えません。&lt;/p&gt;
+
+&lt;p&gt;64bit版クライアント実装と同時に、EVEの最低動作環境を変更することも検討しています。64bitアプリケーションの性質として、以前より消費メモリが増加するため、必要メモリを2GBから4GBに増加させます。&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="64bit版クライアントとDirectX 12-2" class="alignnone" height="325" src="https://evekatsu.github.io/parrot-archives/images/1995-2.png" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;EVEは最も代表的かつ美しいSFMMOの一つです。その行く先を見据えて、私たちは将来の技術の基礎を築く必要があります。&lt;/p&gt;
+
+&lt;p&gt;そこでお知らせです。エンジンチームはEVE Onlineを&lt;a href="https://en.wikipedia.org/wiki/DirectX#DirectX_12"&gt;DirectX 12&lt;/a&gt;で稼働させるための具体的作業を開始しました。&lt;/p&gt;
+
+&lt;p&gt;DirectX 12へ移行すると帯域幅が大きく増加するため、最新のグラフィック技術を使ってニューエデンをこれまで以上に魅力的な場所にできます。&lt;a href="https://blogs.msdn.microsoft.com/directx/2018/03/19/announcing-microsoft-directx-raytracing/"&gt;DirectX Raytracing&lt;/a&gt;などの技術が利用できるほか、エフェクトやゲーム内環境、ビジュアルフィードバック等のオーバーホールにもより多くの時間をかけられるので、もっともっと豊かで没入感ある体験を皆さんに提供できます。&lt;/p&gt;
+
+&lt;p&gt;私たちはDirectX 9の終わりが近づきつつあると、&lt;a href="https://www.eveonline.com/article/changes-to-os-minimum-requirements"&gt;2016年&lt;/a&gt;から示唆してきました。その後、&lt;a href="https://www.eveonline.com/article/launcher-settings-change-directx-9-metrics-gathering"&gt;デフォルトのDirectX設定をDirectX 11に変更&lt;/a&gt;し、どのくらいのプレイヤーがDirectX 9に戻すか調査しました。&lt;/p&gt;
+
+&lt;p&gt;この実験の結果と、将来に備えてDirectX 12へ投資する決定を踏まえ、私たちはDirectX 9のサポートを終了することにしました。&lt;/p&gt;
+
+&lt;p&gt;DirectX 9サポート終了日はDirectX 12サポート開始日と連動する予定ですが、まだ日程は決まっていません。&lt;/p&gt;
+
+&lt;p&gt;DirectX 12のサポートを始める前に64bit版クライアントが実装されます。DirectX 12に関する今後の最新情報は、開発者ブログや2019年を通して開催されるEVEワールドツアーでお知らせします。&lt;/p&gt;
+
+&lt;p&gt;DirectX 12のサポートが始まるということは、すべてのプレイヤーはEVEをプレイするための最低条件として、DirectX 11が動作するグラフィックカードが必要になります。これが一部のプレイヤーにとって大きな変化であることは理解していますが、DirectX 12サポート開始日の遅くとも半年前には告知しますので、ハードウェアをアップグレードするための準備期間は十分あります。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;おっと、大きな疑問が1つ残っていますね。Mac用クライアントを使っているプレイヤーはどうなってしまうのか？ 大丈夫、心配しないで！ 今まで述べた変更点はすべてMac用クライアントにも適用されるよう、私たちは協力先と調整しています。Mac用クライアントについて話がまとまり、MacOS環境での移行計画についてお話しする準備ができたら、皆さんに詳細をお届けします。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;先ほどお伝えしたとおり、3月5日、Dualityサーバーで64bit版クライアントの公開テストを開始します。&lt;/p&gt;
+
+&lt;p&gt;なるべく多くのプレイヤーにご協力いただき、すべてが問題なく機能するか確認したいと考えています。テストに協力してくださる方は、ぜひフィードバックをお寄せください。問題を発見した際はご報告いただければ幸いです。&lt;/p&gt;
+
+&lt;p&gt;Dualityサーバー接続方法とテスト参加方法については、後日詳しい情報を発信します。&lt;/p&gt;
+
+&lt;p&gt;この開発者ブログを読んでフィードバックやコメントがある方は、&lt;a href="https://forums.eveonline.com/t/devblog-eve-64-bit-directx-12/143069"&gt;総合感想スレッド&lt;/a&gt;をご利用ください。皆さんのご意見、ご感想をお待ちしております。&lt;/p&gt;
+
+&lt;p&gt;今のところはこれで全てです。来週、Dualityサーバーで皆さんと会えることを楽しみにしています。&lt;/p&gt;
+
+&lt;p&gt;それでは、良き宇宙の旅をお楽しみください！&lt;/p&gt;
+
+&lt;p&gt;o7&lt;/p&gt;</content><category term="Devブログ"></category><category term="プレスリリース"></category><category term="翻訳記事"></category></entry><entry><title>スキル・オン・デマンド…スキルシステムに変更来たる！</title><link href="https://evekatsu.github.io/parrot-archives/1981.html" rel="alternate"></link><published>2019-03-02T00:00:00+09:00</published><updated>2019-03-02T00:00:00+09:00</updated><author><name>Parrot</name></author><id>tag:evekatsu.github.io,2019-03-02:/parrot-archives/1981.html</id><summary type="html">&lt;p class="lead"&gt;&lt;a href="https://www.eveonline.com/article/pnjc8z/skills-on-demand-changes-coming-to-the-skill-system"&gt;スキル・オン・デマンド…スキルシステムに変更来たる！&lt;/a&gt;&lt;br/&gt;
+&lt;em&gt;2019-02-26 – By The EVE Dev Team&lt;/em&gt;&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="スキル・オン・デマンド…スキルシステムに変更来たる！-1" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/1981-1.jpg" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;この開発者ブログについて議論したい方は、公式フォーラムの&lt;a href="https://forums.eveonline.com/t/devblog-skills-on-demand-changes-coming-to-the-skill-system/142588"&gt;総合感想スレッド&lt;/a&gt;をお気軽にご利用ください。&lt;/p&gt;
+
+&lt;p&gt;素晴らしきカプセラ諸君、ご機嫌よう！&lt;/p&gt;
+
+&lt;p&gt;今回の開発者ブログは、近日中に実装される変更内容についてお話しします。変更の対象となるのは、ニューエデンのあらゆるパイロットが定期的に利用しているシステム…スキルトレーニングシステムです。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;言いました！&lt;/p&gt;
+
+&lt;p&gt;開発チームは一部フローを簡略化し、より使いやすく、分かりやすいものへと改善するため、新規プレイヤーが最初の数時間で遭遇する比較的複雑なシステムを調査してきました。&lt;/p&gt;
+
+&lt;p&gt;私たちは新規プレイヤーだけでなく、ベテランプレイヤーの利便性も向上させたいと考えています。そこで、経験豊富なプレイヤーのことも考慮に入れた上で、スキルをより簡単かつ便利に購入できるよう、変更内容を検討しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;トレーニング自体は変わりません。スキルポイントは今までどおり時間とともに蓄積され、特定分野の専門性を向上させるために使用されます。&lt;/p&gt;
+
+&lt;p&gt;変更されるのはトレーニングするスキルを手に入れる方法です。私たちは新しいスキル入手方法を「スキル・オン・デマンド」と呼んでいます。&lt;/p&gt;
+
+&lt;p&gt;新しいスキルをトレーニングする場合、スキル自体はマーケットから購入しなければなりませんが、新規プレイヤーにとっては混乱の原因になる場合がありました。従来のシステムは理解しづらいうえ、駆け出しのカプセラがしっかりしたスキル計画を立てようとすると、マーケットという別システムの知識が必要とされたのです。&lt;/p&gt;
+
+&lt;p&gt;今回の変更では、新旧システムの良いところを共存させるよう努めます。私たちはトレーニングを始めるためにスキルを買いに行く行為に必要性を見出していません …&lt;/p&gt;</summary><content type="html">&lt;p class="lead"&gt;&lt;a href="https://www.eveonline.com/article/pnjc8z/skills-on-demand-changes-coming-to-the-skill-system"&gt;スキル・オン・デマンド…スキルシステムに変更来たる！&lt;/a&gt;&lt;br/&gt;
+&lt;em&gt;2019-02-26 – By The EVE Dev Team&lt;/em&gt;&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="スキル・オン・デマンド…スキルシステムに変更来たる！-1" class="alignnone" height="326" src="https://evekatsu.github.io/parrot-archives/images/1981-1.jpg" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;この開発者ブログについて議論したい方は、公式フォーラムの&lt;a href="https://forums.eveonline.com/t/devblog-skills-on-demand-changes-coming-to-the-skill-system/142588"&gt;総合感想スレッド&lt;/a&gt;をお気軽にご利用ください。&lt;/p&gt;
+
+&lt;p&gt;素晴らしきカプセラ諸君、ご機嫌よう！&lt;/p&gt;
+
+&lt;p&gt;今回の開発者ブログは、近日中に実装される変更内容についてお話しします。変更の対象となるのは、ニューエデンのあらゆるパイロットが定期的に利用しているシステム…スキルトレーニングシステムです。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;言いました！&lt;/p&gt;
+
+&lt;p&gt;開発チームは一部フローを簡略化し、より使いやすく、分かりやすいものへと改善するため、新規プレイヤーが最初の数時間で遭遇する比較的複雑なシステムを調査してきました。&lt;/p&gt;
+
+&lt;p&gt;私たちは新規プレイヤーだけでなく、ベテランプレイヤーの利便性も向上させたいと考えています。そこで、経験豊富なプレイヤーのことも考慮に入れた上で、スキルをより簡単かつ便利に購入できるよう、変更内容を検討しました。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;トレーニング自体は変わりません。スキルポイントは今までどおり時間とともに蓄積され、特定分野の専門性を向上させるために使用されます。&lt;/p&gt;
+
+&lt;p&gt;変更されるのはトレーニングするスキルを手に入れる方法です。私たちは新しいスキル入手方法を「スキル・オン・デマンド」と呼んでいます。&lt;/p&gt;
+
+&lt;p&gt;新しいスキルをトレーニングする場合、スキル自体はマーケットから購入しなければなりませんが、新規プレイヤーにとっては混乱の原因になる場合がありました。従来のシステムは理解しづらいうえ、駆け出しのカプセラがしっかりしたスキル計画を立てようとすると、マーケットという別システムの知識が必要とされたのです。&lt;/p&gt;
+
+&lt;p&gt;今回の変更では、新旧システムの良いところを共存させるよう努めます。私たちはトレーニングを始めるためにスキルを買いに行く行為に必要性を見出していません。そういった時間は減らして、ニューエデンを楽しむための時間を増やしたいと考えています。&lt;/p&gt;
+
+&lt;p&gt;私たちはシステム変更によってユーザーエクスペリエンスを改善し、スキルトレーニングにまつわる混乱を減らすつもりです。しかし、マーケットから物理的なアイテムを購入してスキルを登録する、従来の方法も維持します。&lt;/p&gt;
+
+&lt;p&gt;旧システムの方法を維持しておけば、例えばプレカーサースキルのような、ゲームコンテンツでしか得られないスキルの希少性も維持できます。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;プレイヤーはiskを支払い、キャラクターシートからスキルを購入できるようになります。ただし、マーケットでNPCが販売しておらず、ゲームコンテンツを通じて入手するようなレアスキルは対象外です。こういったスキルにはマーケットへのリンクを備えるようにします。&lt;/p&gt;
+
+&lt;p&gt;NPCは新システムが実装されてもスキルブックを販売し続けますし、プレイヤーがそれを使ってスキルを登録することも可能です。もしスキル・オン・デマンドを利用したくなければ、過去16年間と同じ方法でスキルを入手できます！&lt;/p&gt;
+
+&lt;p&gt;なお、キャラクターシートで販売されるスキルは少し割高なので、マーケットで購入すればiskを節約できるという利点もあります。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;スキル・オン・デマンドでは、キャラクターシートでスキルにポインタを重ねると、2つのオプションが表示されます。ただ購入するか、それとも購入してトレーニングするか。後者を選べば、購入したスキルは自動的にスキルキューに追加されます。&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="スキル・オン・デマンド…スキルシステムに変更来たる！-2" class="alignnone" height="391" src="https://evekatsu.github.io/parrot-archives/images/1981-2.png" width="521"/&gt;&lt;/p&gt;
+
+&lt;p&gt;また、購入しようとしているスキルの前提スキルがトレーニングされていない場合、目的のスキルだけを購入するか、目的のスキルと前提スキルを購入してトレーニングするかを選べます。&lt;/p&gt;
+
+&lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="スキル・オン・デマンド…スキルシステムに変更来たる！-3" class="alignnone" height="397" src="https://evekatsu.github.io/parrot-archives/images/1981-3.png" width="580"/&gt;&lt;/p&gt;
+
+&lt;p&gt;キャラクターシートから購入したスキルは自動的に登録されます。スキルをアイテムとして入手することはできません。トレーニング手順を簡略化するため、購入後はただちに登録済スキルに追加されます。&lt;/p&gt;
+
+&lt;p&gt;さらに、前提要件が設定されているアイテムで「情報を表示」を選ぶと、前提要件タブからスキルを購入できるようになります。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;システム変更の一環として、すべてのスキルの基本価格を再検討します。&lt;/p&gt;
+
+&lt;p&gt;過去16年間で多くの新スキルが追加されましたが、価格改定は一度も行われていませんでした。&lt;/p&gt;
+
+&lt;p&gt;まずは現在のマーケットにとって公正かつ適切な価格を調査しますので、スキル・オン・デマンド実装と同時に価格を変更することはしません。&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;p&gt;スキルシステムの変更は大きな意味を持ちます。皆さんがどのような影響を受けるか、ぜひフィードバックをお寄せください。&lt;/p&gt;
+
+&lt;p&gt;変更内容が適切かどうか皆さんと確かめるため、コミュニティにテストしてもらうのは非常に重要だと考えています。&lt;/p&gt;
+
+&lt;p&gt;スキル・オン・デマンドは数日以内にSingularityサーバーへ実装される予定です。できるだけ多くの方にテストしていただければと思います。&lt;/p&gt;
+
+&lt;p&gt;実際にスキル・オン・デマンドを体験した方は、ぜひぜひ&lt;a href="https://forums.eveonline.com/t/devblog-skills-on-demand-changes-coming-to-the-skill-system/142588"&gt;総合感想スレッド&lt;/a&gt;にコメントを残してください。&lt;/p&gt;
+
+&lt;p&gt;それでは、宇宙でお会いしましょう！&lt;/p&gt;
+
+&lt;p&gt;o7&lt;/p&gt;</content><category term="Devブログ"></category><category term="プレスリリース"></category><category term="翻訳記事"></category></entry><entry><title>CONCORDのドリフターズに関する記者会見が中断 スコープ記者とアマー代表が口論</title><link href="https://evekatsu.github.io/parrot-archives/1976.html" rel="alternate"></link><published>2019-02-28T00:00:00+09:00</published><updated>2019-02-28T00:00:00+09:00</updated><author><name>Parrot</name></author><id>tag:evekatsu.github.io,2019-02-28:/parrot-archives/1976.html</id><summary type="html">&lt;p class="lead"&gt;&lt;strong&gt;&lt;a href="https://community.eveonline.com/news/news-channels/world-news/concord-press-conference-on-drifters-disrupted-by-shouting-match-between-scope-journalist-and-amarr-inner-circle-member/"&gt;CONCORDのドリフターズに関する記者会見が中断 スコープ記者とアマー代表が口論&lt;/a&gt;&lt;/strong&gt;&lt;br/&gt;
 &lt;em&gt;2019-02-19 12:12 スコープ、アルトン・ハヴェリ&lt;/em&gt;&lt;/p&gt;
 
 &lt;p&gt;ユーライ発－CONCORDは今日午前、ニューエデン各地におけるドリフター活発化について記者会見を開いた。だが、スコープのレト・グロリアクス記者と、インナーサークル・アマー代表のサーダン・ゼル・クオシュ元帥が激しい口論を交わし、会見が途中で打ち切られる異常な展開となった。会見は質疑応答まで順調に進んでいたものの、「レト・グロリアクスのギャラクティック・アワー」のレト・グロリアクスが、セミキ星系でのドリフターとCONCORDの行動についてコメントを求めたことが、クオシュ元帥の怒りを買ったようだ。&lt;/p&gt;
@@ -3980,7 +4636,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 &lt;p&gt;実装されて以来、オーソラスは小型・中型クラスの艦船としては抜群の性能を誇ってきました。そろそろ大人しくしてもらうため、フィッティングの余裕を削ることで防御能力を圧迫し、速度とシグネチャも多少弱体化させます。オーソラスの適正性能を実現するには何度か調整が必要かもしれませんが、まずはこれが良いスタートになるはずです。&lt;/p&gt;
 
 &lt;p&gt;・PG -120&lt;br/&gt;
-・最大速度 -15m/s&lt;br/&gt;
+・最高速度 -15m/s&lt;br/&gt;
 ・シグネチャ半径 +15m&lt;/p&gt;
 
 &lt;p style="margin-bottom: 1em;"&gt;&lt;img alt="3月リリースの艦船リバランス-4" class="alignnone" height="308" src="https://evekatsu.github.io/parrot-archives/images/1418-4.jpg" width="580"/&gt;&lt;/p&gt;
@@ -4022,7 +4678,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 &lt;p&gt;かつてのイーグルは艦隊編成理論に居場所を確保していました。アサルトダメージコントロール実装とフェロックス弱体化により再び出番が訪れたので、さらに背中を押してあげるのも悪くないですよね。&lt;/p&gt;
 
-&lt;p&gt;・最大速度 +12m/s&lt;br/&gt;
+&lt;p&gt;・最高速度 +12m/s&lt;br/&gt;
 ・ドローン帯域幅 +25Mbit/s&lt;br/&gt;
 ・ドローン収容量 +25m3&lt;/p&gt;
 
@@ -4032,7 +4688,7 @@ HP(シールド/アーマー/ストラクチャ) : 21.6M hp (+7.2M)/21.6M hp (+7
 
 &lt;p&gt;・スキルレベル(ミンマター巡洋艦)ごとのボーナス: 中型プロジェクタイルタレットのダメージ +7.5% (これまでは5%)&lt;br/&gt;
 ・アーマーHP +150&lt;br/&gt;
-・最大速度 +20m/s&lt;br/&gt;
+・最高速度 +20m/s&lt;br/&gt;
 ・質量 -750,000kg&lt;br/&gt;
 ・シグネチャ半径 -10m&lt;br/&gt;
 ・ハイスロット -1&lt;br/&gt;

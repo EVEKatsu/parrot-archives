@@ -22,6 +22,9 @@ Tags: {tags}
 """
 
 def download_image(url, path):
+    if os.path.isfile(path):
+        return
+
     while True:
         try:
             data = urllib.request.urlopen(url).read()
